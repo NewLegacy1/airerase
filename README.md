@@ -1,24 +1,18 @@
-# AERASE site
+# AERASE — original-layout reskin
 
-The existing static Sites setup and first-order route are retained. The original section sequence is adapted for body hair removal, using the existing gallery, accordion, navigation drawer, modal, marquee, carousel and product-selection hooks.
+This site uses the original first-order page structure and utility stylesheet, with AERASE colors, product images and copy. The prior editorial redesign has been replaced.
 
-## Editing
-- `dist/index.html`: page content, metadata, product gallery, FAQs and footer.
-- `dist/pages/first-order/index.html`: matching first-order route. Keep this synchronized with the root page.
-- `dist/template.css`: AERASE palette, typography and responsive presentation.
-- `dist/template.js`: existing standalone interaction flow adapted for AERASE quantities and usage guidance.
-- `dist/store-config.js`: prices, currency and checkout links per quantity. Prices are totals for the selected option. Supply checkout URLs that already select the correct quantity.
-- `dist/assets/aerase/`: supplied product artwork, copied without altering bottle shape or label design. The header uses an editorial serif wordmark; the supplied raster logo is retained as an optional asset.
-- `dist/assets/aerase-base.css`: retained utility/component stylesheet with legacy brand selectors renamed.
+Preserved: original responsive section shells, type scale and weights, slanted photo frame, rotated callouts and overlapping cutouts, textured hero with brand tint, handwritten overlay, marquee, sticky gallery, bordered product cards, comparison table, dashed panel, accordion and carousel geometry.
 
-## Details still needed
-- Approved price, currency and checkout URL for each quantity; confirm whether a two-bottle option is offered.
-- Full final label, ingredients, patch-test instructions, maximum contact time and approved removal/rinsing instructions. The owner described waiting ten minutes, but the page defers to final pack directions rather than publishing unverified formula timing.
-- Shipping, returns, contact details, terms and privacy policy.
-- Newsletter service and consent terms. Signup remains disabled and collects no information.
-- Genuine customer reviews with permission to publish. No invented testimonials or ratings appear; the original review carousel is adapted into routine cards.
+Files:
+- dist/index.html and dist/pages/first-order/index.html: synchronized page routes.
+- dist/assets/aerase-original.css: original utility and component rules with brand selectors renamed.
+- dist/template.css: original interaction styles plus AERASE color tokens and minimal product-image sizing.
+- dist/template.js: quantity selection, gallery tabs, accordion, modal, mobile navigation and carousel controls.
+- dist/store-config.js: approved prices, currency and quantity-specific checkout URLs still pending.
+- dist/assets/aerase/: supplied product assets, unchanged.
+- dist/assets/hero-slate.webp: original unbranded texture, tinted lavender in CSS.
 
-Ordering remains disabled until a valid price, currency and HTTPS checkout URL exist for the selected quantity. No payment or personal data is collected by this static site. Existing hosting access remains private.
+Pending launch information: final pricing, checkout URLs, full label/ingredients and verified timing, shipping/returns/contact/legal information, signup integration and genuine customer reviews. No exact removal time, fabricated ratings, subscription offers or discount claims are published. The original review carousel contains factual routine cards.
 
-## Validation
-Both routes, local assets, navigation anchors, accordion targets and JavaScript syntax checked. Browser visual QA was not requested. The optional WebMCP configure_product tool is adapted to quantities; a supported live WebMCP validation context was not available.
+Validation: original section shells and inline effect styles compared against the first-copy revision; routes, asset references and legacy product strings checked. Interaction harness covers startup, checkout guard, quantities, gallery, tabs, accordions, usage modal and mobile navigation. Browser visual QA has not been performed. Optional WebMCP live validation context unavailable.

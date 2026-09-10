@@ -4,3 +4,13 @@ serve.cjs
 *.tar.gz
 finish-copy.cjs
 validate-aerase.cjs
+.tools/
+original.html
+original.js
+restore-skin.py
+finish-skin.py
+fix-controls.py
+adapt-controls.cjs
+finish-controls.cjs
+check-controls.cjs
+remove-duplicate.cjs
