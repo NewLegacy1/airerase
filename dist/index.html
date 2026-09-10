@@ -1,0 +1,2463 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>First Order — Store Template</title><meta name="description" content="Editable first-order store page template."><link href="/assets/juced-main-a139db19b.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" media="screen" href="/assets/styles-c7d2ab58b.css"><style id="shopify-accelerated-checkout-cart">
+        #shopify-buyer-consent {
+  margin-top: 1em;
+  display: inline-block;
+  width: 100%;
+}
+
+#shopify-buyer-consent.hidden {
+  display: none;
+}
+
+#shopify-subscription-policy-button {
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+#shopify-subscription-policy-button::before {
+  box-shadow: none;
+}
+
+      </style>
+<style>
+    #kc-discount-banner {
+      
+        --kc-banner-bg: #1a1a1a;
+      
+      
+        --kc-banner-color: #f5f5f5;
+      
+      --kc-banner-font-size: 15px;
+      --kc-banner-font: Helvetica, Arial, sans-serif;
+    }
+    
+  </style>
+<style>
+  #preview-bar-iframe,
+  #PBarNextFrameWrapper,
+  #PBarNextFrame {
+    display: none !important;
+  }
+</style><link rel="stylesheet" href="/template.css"></head><body>
+    <!-- BEGIN sections: header-group -->
+<section id="shopify-section-sections--28983054696819__juced-announcement-bar" class="shopify-section shopify-section-group-header-group juced-announcement-bar-section"><style>
+    .juced-ann-bar {
+      background: linear-gradient(45deg, var(--jab-bg-start) 0%, var(--jab-bg-end) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 6px 8px;
+      font-family: var(--font-primary, 'Work Sans', sans-serif);
+    }
+
+    .juced-ann-bar__text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .juced-ann-bar__text:hover .juced-ann-bar__headline,
+    .juced-ann-bar__text:hover .juced-ann-bar__subtext {
+      text-decoration: underline;
+    }
+
+    .juced-ann-bar__headline,
+    .juced-ann-bar__subtext {
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .juced-ann-bar__headline {
+      color: var(--jab-headline-color);
+      font-weight: var(--jab-headline-weight);
+      font-size: calc(var(--jab-headline-size) * 0.75);
+      line-height: 1.5;
+    }
+
+    .juced-ann-bar__subtext {
+      color: var(--jab-text-color);
+      font-weight: var(--jab-subtext-weight);
+      font-size: calc(var(--jab-subtext-size) * 0.75);
+      line-height: 1.5;
+    }
+
+    @media (min-width: 992px) {
+      .juced-ann-bar__headline {
+        font-size: var(--jab-headline-size);
+      }
+      .juced-ann-bar__subtext {
+        font-size: var(--jab-subtext-size);
+      }
+    }
+
+    .juced-ann-bar__right {
+      display: flex;
+      align-items: flex-start;
+      gap: 4px;
+    }
+
+    .juced-ann-bar__timer-pill {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9px;
+      background: var(--jab-timer-bg);
+      border-radius: 6px;
+      padding: 3px 10px;
+    }
+
+    .juced-ann-bar__unit {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 26px;
+    }
+
+    .juced-ann-bar__digits {
+      font-weight: var(--jab-digits-weight);
+      font-size: var(--jab-digits-size);
+      line-height: var(--jab-digits-size);
+      color: var(--jab-timer-text-color);
+      text-align: center;
+      display: block;
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .juced-ann-bar__unit-label {
+      font-weight: var(--jab-label-weight);
+      font-size: var(--jab-label-size);
+      line-height: var(--jab-label-size);
+      color: var(--jab-timer-text-color);
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+      white-space: nowrap;
+    }
+
+    .juced-ann-bar__colon {
+      font-weight: var(--jab-digits-weight);
+      font-size: calc(var(--jab-digits-size) * 0.65);
+      line-height: calc(var(--jab-digits-size) * 1.5);
+      color: var(--jab-timer-text-color);
+      display: flex;
+      align-items: flex-start;
+      padding-top: 1px;
+    }
+
+    .juced-ann-bar__info {
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+      align-self: stretch;
+    }
+
+    .juced-ann-bar__info-btn {
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    .juced-ann-bar__tooltip {
+      position: absolute;
+      top: calc(100% + 6px);
+      right: 0;
+      width: 300px;
+      background: rgba(0, 0, 0, 0.85);
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 13px;
+      color: #fff;
+      text-align: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s ease;
+      z-index: 10;
+      white-space: normal;
+    }
+
+    .juced-ann-bar__info:hover .juced-ann-bar__tooltip,
+    .juced-ann-bar__info:focus-within .juced-ann-bar__tooltip {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+
+  <div
+    class="juced-ann-bar"
+    style="
+      --jab-bg-start: #751d1d;
+      --jab-bg-end: #751d1d;
+      --jab-timer-bg: #ffffff;
+      --jab-text-color: #ffffff;
+      --jab-headline-color: #ffffff;
+      --jab-headline-size: 14px;
+      --jab-headline-weight: 800;
+      --jab-subtext-size: 12px;
+      --jab-subtext-weight: 600;
+      --jab-timer-text-color: #200000;
+      --jab-digits-size: 18px;
+      --jab-digits-weight: 800;
+      --jab-label-size: 10px;
+      --jab-label-weight: 700;
+    "
+  ><a href="/products/juced" class="juced-ann-bar__text"><p class="juced-ann-bar__headline">✨ Limited Time Offer ✨</p>
+      <p class="juced-ann-bar__subtext">UP TO 55% OFF + FREE SHIPPING</p></a></div>
+
+  
+</section><div id="shopify-section-sections--28983054696819__header" class="shopify-section shopify-section-group-header-group header-v2-section section-header"><sticky-header class="site-header relative block px-4 py-2 tb:px-18 tb:py-3">
+  <button
+    type="button"
+    class="site-nav-overlay fixed inset-0 z-300 bg-black/25"
+    aria-label="Close navigation menu"
+    data-header-menu-close
+    data-header-menu-overlay
+    data-open="false"
+    hidden
+  ></button>
+
+  <div class="relative z-400 mx-auto flex max-w-page items-start justify-between">
+    <a
+      href="#"
+      aria-label="Jüced — Home"
+      class="flex h-11 shrink-0 items-center rounded-full border border-white/25 bg-[rgba(32,0,0,0.25)] px-4 py-1 text-fg-primary-inverse backdrop-blur-[8px] transition-colors duration-200 hover:bg-[rgba(32,0,0,0.35)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-white"
+    >
+      <span class="block h-auto w-[93px] [&_svg]:h-auto [&_svg]:w-full" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 821 310">
+  <title>Jüced Logo</title>
+  <path fill="#fff" d="M282.243 73.1854C285.97 73.1854 288.808 76.5367 288.204 80.2201L278.184 162.086C270.004 234.894 237.574 256.783 188.258 256.783 121.013 256.783 103.342 223.813 113.633 163.927L123.729 81.1561C124.288 76.5971 128.151 73.1703 132.738 73.1703H173.68C177.422 73.1703 180.259 76.5367 179.641 80.2201L166.904 169.437C164.263 193.712 168.202 203.781 190.083 203.781 214.35 203.781 220.597 190.27 223.495 168.109L234.254 81.1863C234.798 76.6122 238.661 73.1703 243.263 73.1703H282.243V73.1854ZM139.167 28.3503C139.167 12.6957 152.583 0 169.122 0 185.662 0 199.078 12.6957 199.078 28.3503 199.078 44.0048 185.662 56.7006 169.122 56.7006 152.583 56.7006 139.167 44.0048 139.167 28.3503ZM221.819 28.3503C221.819 12.6957 235.235 0 251.775 0 268.314 0 281.73 12.6957 281.73 28.3503 281.73 44.0048 268.314 56.7006 251.775 56.7006 235.235 56.7006 221.819 44.0048 221.819 28.3503ZM430.631 73.8798C434.902 74.846 437.724 78.8917 437.12 83.2242L431.31 124.104C430.933 126.686 428.292 128.225 425.862 127.259 417.034 123.772 405.263 121.085 390.354 121.085 358.376 121.085 341.595 135.653 338.109 160.999 334.306 186.979 345.715 206.302 378.96 205.985 392.345 205.985 407.029 202.905 419.056 198.361 420.822 197.697 422.648 199.116 422.391 200.973L416.657 243C416.234 246.08 414.137 248.661 411.224 249.733 399.665 254.005 384.71 256.662 369.77 256.662 312.772 256.662 282.062 221.187 290.301 160.048 299.794 97.022 344.764 70.0907 396.058 70.0907 407.406 70.0907 419.388 71.3588 430.631 73.8798ZM541.488 70.7851C596.584 70.7851 620.337 101.823 613.365 148.394 612.596 153.481 611.389 158.976 610.181 164.728 609.276 168.954 604.945 168.954 594.502 168.954L489.968 168.366C488.006 168.366 486.346 169.951 486.391 171.928 487.04 195.206 500.245 209.849 530.079 209.849 553.123 209.849 578.083 204.339 597.535 195.372 599.316 194.557 601.293 195.976 601.021 197.909L595.634 237.234C595.241 240.102 593.415 242.608 590.744 243.725 572.786 251.303 549.048 256.723 525.326 256.723 465.476 256.723 432.547 221.247 441.738 157.904 449.977 99.3015 492.715 70.8002 541.473 70.8002L541.488 70.7851ZM567.052 145.601C568.335 145.571 569.391 144.499 569.391 143.231 569.24 124.014 555.583 116.088 535.784 116.088 511.487 116.088 497.136 125.75 490.587 144.529 490.043 146.084 491.296 147.699 492.926 147.654L567.052 145.601ZM95.6459 74.9814C101.124 74.9817 105.334 79.8131 104.594 85.2324L95.8568 149.104 88.7191 213.548C81.1586 280.423 56.2583 295.248 17.9428 308.502 12.4497 310.404 6.54903 306.841 5.68886 301.09L.0755762 263.817C-.301497 261.342 1.10158 258.927 3.45546 258.066 25.4277 250.05 31.223 242.155 33.9242 222.107L47.6771 127.353H22.7875C17.868 127.353 14.7434 123.73 15.4525 118.869L20.81 82.0947C21.3534 78.3662 25.2171 75.0146 28.9896 75.0146H59.8129C60.0591 74.9944 60.3078 74.9815 60.559 74.9814H95.6459ZM813.998 9.93317C818.268 9.93317 821.528 13.7072 820.924 17.934L805.849 123.198 792.222 247.076C791.829 250.624 788.826 253.311 785.265 253.311H752.02C748.685 253.311 745.938 250.699 745.787 247.363L744.776 226.063C744.595 221.383 742.09 223.028 740.717 224.583 724.268 242.895 704.469 257.13 680.58 257.13 642.732 257.13 618.24 223.089 627.143 159.459 636.047 97.0975 673.578 70.0605 720.646 70.0605 734.665 70.0605 748.111 73.276 758.735 78.318 759.414 78.6351 760.169 78.2124 760.259 77.4727L767.035 16.1829C767.427 12.6354 770.431 9.94826 773.992 9.94826H814.028L813.998 9.93317ZM752.472 143.276C754.585 124.919 754.238 122.957 746.813 121.613 739.449 120.285 731.813 119.757 724.705 120.028 691.506 120.406 676.52 136.619 673.593 160.395 670.333 187.553 680.112 205.29 707.457 205.29 717.115 205.29 726.033 202.407 733.82 198.15 741.864 193.757 747.553 182.345 749.786 165.226L752.488 143.291 752.472 143.276Z"/>
+</svg>
+
+      </span>
+    </a>
+
+    <div class="flex h-11 shrink-0 items-center justify-end gap-1 rounded-full border border-white/25 bg-[rgba(32,0,0,0.25)] py-1 pl-1 pr-2 text-fg-primary-inverse backdrop-blur-[8px] tb:gap-2 tb:pr-3">
+      <a
+        href="/products/juced"
+        class="label-2 flex h-full items-center justify-center rounded-full bg-accent2-base px-3 font-bold leading-none text-fg-primary transition-colors duration-200 hover:bg-accent2-weak focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-white tb:px-4"
+      >Try Jüced Now</a>
+
+      <a
+        id="cart-icon-bubble"
+        class="relative flex size-8 items-center justify-center rounded-full transition-colors duration-200 hover:bg-[rgba(32,0,0,0.35)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-white"
+        aria-label="View cart"
+        href="/cart"
+      >
+        <svg class="size-6" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path
+            d="M3.392 6.875h13.216v8.016c0 .567-.224 1.112-.624 1.513-.4.402-.941.627-1.506.627H5.522a2.13 2.13 0 0 1-1.506-.627 2.15 2.15 0 0 1-.624-1.513zM8.818 2.969h2.333c.618 0 1.211.247 1.649.686a2.35 2.35 0 0 1 .683 1.658v1.562H6.486V5.313c0-.622.246-1.218.683-1.658a2.33 2.33 0 0 1 1.65-.686"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.75"
+          />
+        </svg></a>
+
+      <button
+        type="button"
+        class="flex size-8 items-center justify-center rounded-full transition-colors duration-200 hover:bg-[rgba(32,0,0,0.35)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-white"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="HeaderMenuDrawer-sections--28983054696819__header"
+        data-header-menu-open
+      >
+        <svg class="site-nav-toggle-icon size-5" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path
+            class="site-nav-toggle-icon__line site-nav-toggle-icon__line--top"
+            d="M2 7H18"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            class="site-nav-toggle-icon__line site-nav-toggle-icon__line--bottom"
+            d="M2 13H18"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div
+    id="HeaderMenuDrawer-sections--28983054696819__header"
+    class="site-nav-drawer absolute top-full z-400 w-[min(calc(100vw-32px),358px)]"
+    data-header-menu-drawer
+    data-open="false"
+    hidden
+  >
+    <div
+      class="site-nav-drawer__panel flex flex-col gap-4 overflow-hidden rounded-2xl bg-off-white p-4 text-fg-primary shadow-xl"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Navigation menu"
+      data-header-menu-panel
+    ><nav aria-label="Shop products" class="flex flex-col gap-2">
+          <p class="eyebrow-4 text-fg-tertiary">Shop</p>
+          <ul class="flex flex-col" role="list"><li >
+                <a
+                  href="/products/juced"
+                  class="flex min-h-11 items-center gap-0.5 rounded-md text-fg-primary transition-colors duration-200 hover:bg-primary-weakest focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                  data-header-menu-close
+                ><img src="/assets/Sugar_Type_LS-b8bc3fa0f.webp" alt="Jüced Energy Gummies" srcset="/assets/Sugar_Type_LS-ca73ab79e.webp 44w, /assets/Sugar_Type_LS-a771bae11.webp 88w, /assets/Sugar_Type_LS-b8bc3fa0f.webp 120w" width="120" height="120" loading="lazy" sizes="44px" class="size-11 shrink-0 object-contain">
+<span class="flex min-w-0 flex-1 flex-wrap items-center gap-1 px-2">
+                    <span class="h6 min-w-0">Jüced Energy Gummies</span></span>
+                </a>
+              </li></ul>
+        </nav><div class="overflow-hidden rounded-lg" >
+              <a
+                href="/products/juced"
+                class="block focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                data-header-menu-close
+              >
+                <img src="/assets/product_1-2571b031d.webp" alt="Jüced promotion" srcset="/assets/product_1-daa3d03b1.webp 326w, /assets/product_1-f81be58f7.webp 520w, /assets/product_1-379ffef68.webp 652w, /assets/product_1-2571b031d.webp 800w" width="800" height="779" loading="eager" sizes="(min-width: 992px) 326px, calc(100vw - 64px)" fetchpriority="high" class="block h-47 w-full object-cover">
+              </a>
+            </div><a href="/a/account/subscriptions" class="btn btn-primary h-12 w-full" data-header-menu-close>Manage Your Account</a><nav aria-label="Secondary navigation">
+          <ul class="body-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-2 text-fg-secondary" role="list"><li >
+                  <a
+                    href="/pages/help-center"
+                    class="transition-colors duration-200 hover:text-fg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                    data-header-menu-close
+                  >FAQs</a>
+                </li><li >
+                  <a
+                    href="/pages/contact"
+                    class="transition-colors duration-200 hover:text-fg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                    data-header-menu-close
+                  >Contact</a>
+                </li></ul>
+        </nav></div>
+  </div>
+</sticky-header>
+
+<style>
+  .site-nav-drawer {
+    right: 1rem;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.9);
+    transform-origin: top right;
+    transition:
+      opacity 180ms ease,
+      transform 180ms ease;
+  }
+
+  .site-nav-drawer[data-open='true'] {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+  }
+
+  .site-nav-overlay {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 180ms ease;
+  }
+
+  .site-nav-overlay[data-open='true'] {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  #shopify-section-sections--28983054696819__header .site-nav-toggle-icon__line {
+    transform-box: fill-box;
+    transform-origin: center;
+    transition: transform 180ms ease;
+  }
+
+  #shopify-section-sections--28983054696819__header
+    [data-header-menu-open][aria-expanded='true']
+    .site-nav-toggle-icon__line--top {
+    transform: translateY(3px) rotate(45deg);
+  }
+
+  #shopify-section-sections--28983054696819__header
+    [data-header-menu-open][aria-expanded='true']
+    .site-nav-toggle-icon__line--bottom {
+    transform: translateY(-3px) rotate(-45deg);
+  }
+
+  .site-nav__product-placeholder {
+    background: linear-gradient(180deg, var(--color-primary-base) 0%, var(--color-secondary-base) 100%);
+  }
+
+  .site-nav__promo-fallback {
+    background: linear-gradient(135deg, var(--color-primary-base) 0%, var(--color-accent2-base) 100%);
+  }
+
+  .header-v2-section {
+    margin-bottom: -60px;
+  }
+
+  @media (min-width: 992px) {
+    .site-nav-drawer {
+      right: max(4.5rem, calc((100vw - var(--spacing-page)) / 2));
+    }
+
+    .header-v2-section {
+      margin-bottom: -68px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #shopify-section-sections--28983054696819__header .site-nav-toggle-icon__line,
+    .site-nav-overlay,
+    .site-nav-drawer {
+      transition: none;
+    }
+  }
+</style>
+
+
+</div>
+<!-- END sections: header-group -->
+
+    <main role="main" class="max-w-screen overflow-x-clip" id="main" tabindex="-1">
+      <section id="shopify-section-template--28448972702067__hero_gcK9Y4" class="shopify-section"><div class="relative overflow-hidden bg-off-black"><img src="/assets/JucedHeroSlate_1x_ff0c0b91-5596-4fb8-a099-62305ddbde9e-740f90a9e.webp" alt="" srcset="/assets/JucedHeroSlate_1x_ff0c0b91-5596-4fb8-a099-62305ddbde9e-0ea06a03d.webp 780w, /assets/JucedHeroSlate_1x_ff0c0b91-5596-4fb8-a099-62305ddbde9e-15263dbbc.webp 1080w, /assets/JucedHeroSlate_1x_ff0c0b91-5596-4fb8-a099-62305ddbde9e-097e3678d.webp 1600w, /assets/JucedHeroSlate_1x_ff0c0b91-5596-4fb8-a099-62305ddbde9e-174667325.webp 2200w, /assets/JucedHeroSlate_1x_ff0c0b91-5596-4fb8-a099-62305ddbde9e-740f90a9e.webp 3000w" width="3000" height="1527" sizes="100vw" class="absolute inset-0 size-full object-cover object-bottom" aria-hidden="true">
+<div class="relative mx-auto flex max-w-page flex-col tb:grid tb:grid-cols-[minmax(0,36.875rem)_1fr] tb:items-center tb:gap-x-8 tb:px-18 tb:py-20">
+    <div class="order-1 w-full tb:order-0 tb:col-start-2 tb:row-start-1 tb:self-end"><img src="/assets/Group_6335365-d25660b10.webp" alt="" srcset="/assets/Group_6335365-d4f846e5b.webp 390w, /assets/Group_6335365-94e03303d.webp 540w, /assets/Group_6335365-a578dd71d.webp 780w, /assets/Group_6335365-eb516986d.webp 1080w, /assets/Group_6335365-d25660b10.webp 1600w" width="1600" height="1607" sizes="(min-width: 992px) 760px, 100vw" class="w-full">
+</div>
+
+    <div class="order-2 relative z-10 -mt-14 flex w-full flex-col gap-6 bg-linear-to-b from-off-black/0 to-off-black to-12% px-4 py-8 tb:order-0 tb:col-start-1 tb:row-start-1 tb:m-0 tb:bg-none tb:p-0">
+      <div class="flex flex-col gap-4">
+        <div><p
+              class="richtext-accent callout-2 text-fg-primary-inverse [&_strong]:font-bold"
+              style="--bold-color: var(--color-accent2-base);"
+            >
+              From the makers of Grüns,
+            </p><p
+              class="richtext-accent callout-2 text-fg-primary-inverse [&_strong]:font-bold"
+              style="--bold-color: var(--color-accent2-base);"
+            >
+              <strong>100K+</strong> 5-star reviews | <strong>1M+</strong> members
+            </p></div>
+        <h1
+          class="richtext-h richtext-accent text-[3.5rem] leading-display font-black uppercase tracking-[-0.02em] text-white tb:text-[4rem] [&_strong]:font-black"
+          style="--bold-color: var(--color-accent2-base);"
+        >
+          <p>Pre-Anything <strong>Energy Gummies</strong></p>
+        </h1><p class="body-3 leading-compact text-fg-primary-inverse tb:max-w-116">
+            Meet Jüced. Peachy, portable energy gummies made for people with things to do. Really, it’s for pre-anything you’ve got going on.
+          </p></div>
+
+      <div class="flex w-full flex-col gap-2 tb:w-79.5 tb:gap-1"><a
+            href="#offers"
+            class="flex h-14 w-full items-center justify-center border-2 border-off-black bg-accent2-base px-8 text-[1.125rem] font-semibold leading-dense tracking-[-0.03em] text-fg-primary transition-colors duration-200 hover:bg-accent2-weak focus-visible:outline-2 focus-visible:outline-white"
+          >
+            Try Jüced Now
+          </a><div class="flex items-center justify-center gap-1 tb:justify-start">
+            <span class="flex size-6 items-center justify-center text-accent2-base" aria-hidden="true">
+              <svg class="h-4.5 w-auto" viewBox="0 0 17 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.49999 10.8833C4.25512 10.8833 4.04647 10.8021 3.87404 10.6397C3.7016 10.4774 3.61539 10.2809 3.61539 10.0503C3.61539 9.81973 3.7016 9.62325 3.87404 9.46088C4.04647 9.29851 4.25512 9.21732 4.49999 9.21732C4.74486 9.21732 4.95351 9.29851 5.12594 9.46088C5.29837 9.62325 5.38459 9.81973 5.38459 10.0503C5.38459 10.2809 5.29837 10.4774 5.12594 10.6397C4.95351 10.8021 4.74486 10.8833 4.49999 10.8833ZM8.5 10.8833C8.25513 10.8833 8.04648 10.8021 7.87405 10.6397C7.70161 10.4774 7.6154 10.2809 7.6154 10.0503C7.6154 9.81973 7.70161 9.62325 7.87405 9.46088C8.04648 9.29851 8.25513 9.21732 8.5 9.21732C8.74487 9.21732 8.95352 9.29851 9.12595 9.46088C9.29839 9.62325 9.3846 9.81973 9.3846 10.0503C9.3846 10.2809 9.29839 10.4774 9.12595 10.6397C8.95352 10.8021 8.74487 10.8833 8.5 10.8833ZM12.5 10.8833C12.2551 10.8833 12.0465 10.8021 11.8741 10.6397C11.7016 10.4774 11.6154 10.2809 11.6154 10.0503C11.6154 9.81973 11.7016 9.62325 11.8741 9.46088C12.0465 9.29851 12.2551 9.21732 12.5 9.21732C12.7449 9.21732 12.9535 9.29851 13.126 9.46088C13.2984 9.62325 13.3846 9.81973 13.3846 10.0503C13.3846 10.2809 13.2984 10.4774 13.126 10.6397C12.9535 10.8021 12.7449 10.8833 12.5 10.8833ZM1.80771 18C1.30257 18 0.875003 17.8352 0.525002 17.5056C0.175001 17.1761 0 16.7734 0 16.2978V3.69418C0 3.21852 0.175001 2.81589 0.525002 2.48632C0.875003 2.15674 1.30257 1.99195 1.80771 1.99195H3.19233V0.724319C3.19233 0.517893 3.26573 0.345563 3.41254 0.207329C3.55932 0.0691096 3.74233 0 3.96156 0C4.18078 0 4.36379 0.0691096 4.51059 0.207329C4.65737 0.345563 4.73076 0.517893 4.73076 0.724319V1.99195H12.3077V0.706217C12.3077 0.505817 12.3795 0.338014 12.5231 0.202808C12.6666 0.0676026 12.8448 0 13.0577 0C13.2705 0 13.4487 0.0676026 13.5923 0.202808C13.7359 0.338014 13.8077 0.505817 13.8077 0.706217V1.99195H15.1923C15.6974 1.99195 16.125 2.15674 16.475 2.48632C16.825 2.81589 17 3.21852 17 3.69418V16.2978C17 16.7734 16.825 17.1761 16.475 17.5056C16.125 17.8352 15.6974 18 15.1923 18H1.80771ZM1.80771 16.5875H15.1923C15.2692 16.5875 15.3398 16.5574 15.4039 16.497C15.468 16.4366 15.5 16.3702 15.5 16.2978V7.46079H1.49998V16.2978C1.49998 16.3702 1.53203 16.4366 1.59613 16.497C1.66025 16.5574 1.73077 16.5875 1.80771 16.5875ZM1.49998 6.04833H15.5V3.69418C15.5 3.62173 15.468 3.55532 15.4039 3.49494C15.3398 3.43458 15.2692 3.4044 15.1923 3.4044H1.80771C1.73077 3.4044 1.66025 3.43458 1.59613 3.49494C1.53203 3.55532 1.49998 3.62173 1.49998 3.69418V6.04833Z"/>
+              </svg>
+            </span>
+            <span class="callout-3 text-white">30 Day Risk Free Trial</span></div></div>
+    </div>
+  </div>
+</div>
+
+
+</section><section id="shopify-section-template--28448972702067__marquee_LcpW4V" class="shopify-section"><marquee-section
+  class="marquee-template--28448972702067__marquee_LcpW4V relative flex items-center overflow-x-hidden bg-off-black py-6"
+  data-duration="30"
+>
+  <div
+    class="press-marquee-track"
+    data-marquee-track
+    style="--press-marquee-duration: 30s;"
+  >
+    <ul
+      class="flex w-max items-center gap-8.75 pr-8.75"
+      aria-label="Product highlights"
+      data-marquee-content
+    ><li class="flex items-center gap-3 whitespace-nowrap" >
+          <img
+            src="/assets/icon-marquee-vegan-de0133240.svg"
+            alt=""
+            aria-hidden="true"
+            width="32"
+            height="32"
+            loading="lazy"
+            class="size-8 shrink-0"
+          >
+          <span class="label-1 text-fg-primary-inverse">Vegan</span>
+        </li><li class="flex items-center gap-3 whitespace-nowrap" >
+          <img
+            src="/assets/icon-marquee-gluten-free-bc07f1bf2.svg"
+            alt=""
+            aria-hidden="true"
+            width="32"
+            height="32"
+            loading="lazy"
+            class="size-8 shrink-0"
+          >
+          <span class="label-1 text-fg-primary-inverse">Gluten-Free</span>
+        </li><li class="flex items-center gap-3 whitespace-nowrap" >
+          <img
+            src="/assets/icon-marquee-artificial-9d8f5df91.svg"
+            alt=""
+            aria-hidden="true"
+            width="32"
+            height="32"
+            loading="lazy"
+            class="size-8 shrink-0"
+          >
+          <span class="label-1 text-fg-primary-inverse">No Artificial Flavors</span>
+        </li><li class="flex items-center gap-3 whitespace-nowrap" >
+          <img
+            src="/assets/icon-marquee-nut-free-9dafbece6.svg"
+            alt=""
+            aria-hidden="true"
+            width="32"
+            height="32"
+            loading="lazy"
+            class="size-8 shrink-0"
+          >
+          <span class="label-1 text-fg-primary-inverse">Nut-Free</span>
+        </li><li class="flex items-center gap-3 whitespace-nowrap" >
+          <img
+            src="/assets/icon-marquee-dairy-free-8b9a586a1.svg"
+            alt=""
+            aria-hidden="true"
+            width="32"
+            height="32"
+            loading="lazy"
+            class="size-8 shrink-0"
+          >
+          <span class="label-1 text-fg-primary-inverse">Dairy-Free</span>
+        </li><li class="flex items-center gap-3 whitespace-nowrap" >
+          <img
+            src="/assets/icon-marquee-artificial-9d8f5df91.svg"
+            alt=""
+            aria-hidden="true"
+            width="32"
+            height="32"
+            loading="lazy"
+            class="size-8 shrink-0"
+          >
+          <span class="label-1 text-fg-primary-inverse">No Artificial Colors</span>
+        </li><li class="flex items-center gap-3 whitespace-nowrap" >
+          <img
+            src="/assets/icon-marquee-non-gmo-030e559ac.svg"
+            alt=""
+            aria-hidden="true"
+            width="32"
+            height="32"
+            loading="lazy"
+            class="size-8 shrink-0"
+          >
+          <span class="label-1 text-fg-primary-inverse">Non-GMO</span>
+        </li></ul>
+  </div>
+
+  
+</marquee-section>
+
+<style data-shopify>
+  .marquee-template--28448972702067__marquee_LcpW4V.is-paused .press-marquee-track {
+    animation-play-state: paused;
+  }
+  .marquee-template--28448972702067__marquee_LcpW4V.is-paused .marquee-icon-pause {
+    display: none;
+  }
+  .marquee-template--28448972702067__marquee_LcpW4V.is-paused .marquee-icon-play {
+    display: block;
+  }
+  .marquee-template--28448972702067__marquee_LcpW4V [data-marquee-toggle]:not(.hidden) {
+    display: flex;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-template--28448972702067__marquee_LcpW4V {
+      overflow-x: auto;
+    }
+    .marquee-template--28448972702067__marquee_LcpW4V [data-marquee-dup] {
+      display: none;
+    }
+  }
+</style>
+
+
+</section><section id="shopify-section-template--28448972702067__intro_EFpAfF" class="shopify-section"><div class="overflow-x-clip bg-linear-to-b from-off-black from-50% to-primary">
+  <div class="mx-auto flex max-w-page flex-col items-center gap-12 px-4 pb-12 pt-18 tb:pb-24 tb:px-18">
+    <div class="flex flex-col items-center gap-6 text-center tb:gap-8">
+      <h2
+        class="richtext-h richtext-accent text-[2.625rem] leading-display font-black uppercase tracking-[-0.02em] text-fg-primary-inverse tb:text-[6rem] [&_strong]:font-black tb:max-w-200"
+        style="--bold-color: var(--color-accent2-base);"
+      >
+        <p>A <strong>PEACHY</strong> </p><p>PICK-ME-UP</p>
+      </h2><p class="body-2 text-fg-primary-inverse tb:max-w-200">
+          The whole itchy skin, and “no days off” grindset energy isn’t us. We’re here for the people who love a sweat, but don’t live at the gym—the ones who work out, then gtfo.
+        </p></div>
+
+    <div class="flex w-full flex-col items-center">
+      <div class="relative w-full tb:w-193.25">
+        <div class="intro-slant-template--28448972702067__intro_EFpAfF bg-off-white p-1">
+          <div class="intro-slant-template--28448972702067__intro_EFpAfF relative aspect-333/400 overflow-hidden tb:aspect-741/669"><img src="/assets/Image_9-47523f34c.webp" alt="" srcset="/assets/Image_9-743132c53.webp 360w, /assets/Image_9-63587e6b0.webp 540w, /assets/Image_9-1990c5063.webp 780w, /assets/Image_9-87d379311.webp 1080w, /assets/Image_9-47523f34c.webp 1600w" width="1600" height="1451" loading="lazy" sizes="(min-width: 992px) 773px, 100vw" class="absolute inset-0 size-full object-cover">
+</div>
+        </div><div
+            class="pointer-events-none absolute -left-[12%] top-[63%] aspect-246/240 w-[39%] rotate-165 -scale-y-100 tb:-left-[19%] tb:top-[55%] tb:w-[32%]"
+            aria-hidden="true"
+          >
+            <img src="/assets/gummy_stars2-50387f9d4.webp" alt="" srcset="/assets/gummy_stars2-48f62c4c4.webp 352w, /assets/gummy_stars2-50387f9d4.webp 600w" width="600" height="583" loading="lazy" class="absolute inset-0 size-full object-contain">
+          </div>
+          <div
+            class="pointer-events-none absolute left-[63%] top-[1%] aspect-246/240 w-[33%] rotate-15 tb:left-[82%] tb:top-0 tb:w-[30%]"
+            aria-hidden="true"
+          >
+            <img src="/assets/gummy_stars2-50387f9d4.webp" alt="" srcset="/assets/gummy_stars2-48f62c4c4.webp 352w, /assets/gummy_stars2-50387f9d4.webp 600w" width="600" height="583" loading="lazy" class="absolute inset-0 size-full object-contain">
+          </div></div>
+
+      <ul class="relative z-20 mt-2 flex w-full max-w-[327px] flex-col gap-4 tb:-mt-10 tb:w-max tb:max-w-none tb:translate-x-8 tb:-rotate-8 tb:flex-row tb:items-start tb:gap-2"><li class="flex -rotate-[7.7deg] items-center gap-1.5 tb:rotate-0">
+              <span
+                class="h-15 w-6.75 shrink-0 -skew-x-8 bg-accent2-base"
+                aria-hidden="true"
+              ></span>
+              <span class="text-[2.25rem] font-bold italic leading-[0.85] tracking-[-0.03em] text-off-white uppercase tb:max-w-60 tb:text-[1.875rem]">75 mg Real Caffeine</span>
+            </li><li class="flex -rotate-[7.7deg] items-center gap-1.5 tb:rotate-0">
+              <span
+                class="h-15 w-6.75 shrink-0 -skew-x-8 bg-accent2-base"
+                aria-hidden="true"
+              ></span>
+              <span class="text-[2.25rem] font-bold italic leading-[0.85] tracking-[-0.03em] text-off-white uppercase tb:max-w-60 tb:text-[1.875rem]">Electric Peach Flavor</span>
+            </li><li class="flex -rotate-[7.7deg] items-center gap-1.5 tb:rotate-0">
+              <span
+                class="h-15 w-6.75 shrink-0 -skew-x-8 bg-accent2-base"
+                aria-hidden="true"
+              ></span>
+              <span class="text-[2.25rem] font-bold italic leading-[0.85] tracking-[-0.03em] text-off-white uppercase tb:max-w-60 tb:text-[1.875rem]">Fits in Your Pocket</span>
+            </li></ul>
+    </div>
+  </div>
+</div>
+
+<style data-shopify>
+  /* Slanted bottom edge of the photo frame. Applied to both the cream frame
+     and the inset photo area so the border stays parallel along the cut.
+     Rise = tan(callout angle) x frame width, so the cut runs parallel to the
+     callouts (-7.7deg mobile, -8deg desktop); percentage differs with aspect. */
+  .intro-slant-template--28448972702067__intro_EFpAfF {
+    clip-path: polygon(0 0, 100% 0, 100% 88.6%, 0 100%);
+  }
+  @media (min-width: 992px) {
+    .intro-slant-template--28448972702067__intro_EFpAfF {
+      clip-path: polygon(0 0, 100% 0, 100% 84.5%, 0 100%);
+    }
+  }
+</style>
+
+
+</section><section id="shopify-section-template--28448972702067__juced_flavor_spotlight_egFHeQ" class="shopify-section juced-flavor-spotlight"><div class="bg-primary px-5 py-9 tb:px-18">
+  <div class="mx-auto flex w-full max-w-237.5 flex-col gap-4 bg-accent2-base p-6 tb:flex-row tb:items-center tb:justify-center tb:gap-8">
+    <div class="relative flex flex-col gap-2 tb:w-108.5 tb:shrink-0">
+      <h2 class="text-[3.5rem] leading-display font-black uppercase tracking-[-0.02em] text-fg-primary tb:text-[4.5rem]">
+        <span class="block">Electric</span><span class="block text-secondary">Peach</span></h2><p class="body-1 max-w-57 font-semibold text-fg-primary tb:max-w-none">
+          with a subtle bitter edge from real caffeine.
+        </p><div
+          class="pointer-events-none absolute -right-6 top-12 size-29 -rotate-24 tb:left-59 tb:right-auto tb:top-10 tb:size-22.5 tb:rotate-0"
+          aria-hidden="true"
+        >
+          <img src="/assets/Peach-isolated-a5d00030f.webp" alt="" srcset="/assets/Peach-isolated-a5d00030f.webp 300w" width="300" height="300" loading="lazy" class="size-full object-contain">
+        </div></div><div class="body-3 flex flex-col gap-5.5 font-medium text-fg-primary tb:max-w-122.5">
+        <p>Jüced is made with real ingredients and caffeine, not a bunch of fake sweeteners and a mile-long ingredient list.</p><p>Most pre-workouts bury their caffeine under candy flavors or harsh sour blends. We keep the formula clean, so a little of that natural bite comes through.</p>
+      </div></div>
+</div>
+
+
+</section><section id="shopify-section-template--28448972702067__juced_ingredients_K4AXyK" class="shopify-section juced-ingredients"><nutrition-modal class="block overflow-x-clip bg-primary px-4 py-18 tb:px-18">
+  <div class="mx-auto flex w-full max-w-page flex-col items-center gap-12"><h2 class="text-center text-[2.625rem] leading-display font-black uppercase tracking-[-0.02em] text-fg-primary tb:max-w-214 tb:text-[4.5rem]">
+        Intentional, Simple, Effective Energy
+      </h2><ul class="flex w-full flex-col gap-2.5 tb:grid tb:w-199.5 tb:grid-cols-2 tb:gap-4" role="list"><li
+            class="relative flex min-h-43.75 items-center border-2 border-off-black bg-accent1-base p-4 tb:min-h-48.75"
+            
+          >
+            <div class="relative h-full w-1/2 shrink-0"><div
+                  class="pointer-events-none absolute left-2/5 top-1/2 size-48 -translate-x-1/2 -translate-y-1/2"
+                  aria-hidden="true"
+                >
+                  <img src="/assets/img_4-f1cc71ba0.webp" alt="" srcset="/assets/img_4-c43adad5f.webp 352w, /assets/img_4-f1cc71ba0.webp 400w" width="400" height="363" loading="lazy" class="size-full object-contain">
+                </div></div>
+
+            <div class="flex w-1/2 flex-col gap-3"><h3 class="text-[1.5rem] font-black uppercase leading-[0.9] tracking-[-0.02em] text-fg-primary">
+                  Caffeine
+                </h3><p class="body-5 font-medium text-fg-primary tb:body-4">
+                  The same amount of caffeine as a cup of coffee. Keeps your head clear and hands steady.
+                </p></div><div class="absolute -left-6 -top-4 h-20.25 w-27.5 -rotate-8 tb:-left-14.75 tb:-top-9.75 tb:h-27.5 tb:w-37.25">
+                <svg
+                  class="absolute inset-0 size-full"
+                  viewBox="0 0 148 110"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M87.3506 16.7617L87.7334 17.2051L88.2803 16.9951L110.239 8.55273L111.367 26.6611L111.414 27.415L112.169 27.4414L136.528 28.2793L125.496 44.1328L124.936 44.9385L125.821 45.3594L146.065 55L125.821 64.6406L124.936 65.0615L125.496 65.8672L136.528 81.7197L112.169 82.5586L111.414 82.585L111.367 83.3389L110.239 101.446L88.2803 93.0049L87.7334 92.7949L87.3506 93.2383L74 108.726L60.6494 93.2383L60.2666 92.7949L59.7197 93.0049L37.7598 101.446L36.6328 83.3389L36.5859 82.585L35.8311 82.5586L11.4707 81.7197L22.5039 65.8672L23.0645 65.0615L22.1787 64.6406L1.93359 55L22.1787 45.3594L23.0645 44.9385L22.5039 44.1328L11.4707 28.2793L35.8311 27.4414L36.5859 27.415L36.6328 26.6611L37.7598 8.55273L59.7197 16.9951L60.2666 17.2051L60.6494 16.7617L74 1.27344Z" fill="var(--color-accent2-base)" stroke="var(--color-off-black)" stroke-width="1.66"/>
+                </svg>
+                <span class="absolute inset-0 flex items-center justify-center text-[0.75rem] font-bold tracking-[-0.02em] text-fg-primary tb:text-[1.3125rem]">
+                  75mg
+                </span>
+              </div></li><li
+            class="relative flex min-h-43.75 items-center border-2 border-off-black bg-accent1-base p-4 tb:min-h-48.75"
+            
+          >
+            <div class="relative h-full w-1/2 shrink-0"><div
+                  class="pointer-events-none absolute left-2/5 top-1/2 size-48 -translate-x-1/2 -translate-y-1/2"
+                  aria-hidden="true"
+                >
+                  <img src="/assets/img_6-93afdc2f3.webp" alt="" srcset="/assets/img_6-db8072ad1.webp 352w, /assets/img_6-93afdc2f3.webp 400w" width="400" height="363" loading="lazy" class="size-full object-contain">
+                </div></div>
+
+            <div class="flex w-1/2 flex-col gap-3"><h3 class="text-[1.5rem] font-black uppercase leading-[0.9] tracking-[-0.02em] text-fg-primary">
+                  Cognizin® Citicoline
+                </h3><p class="body-5 font-medium text-fg-primary tb:body-4">
+                  A patented, clinically studied form of citicoline that supports brain energy, focus, &amp; attention.
+                </p></div><div class="absolute -left-6 -top-4 h-20.25 w-27.5 -rotate-8 tb:-left-14.75 tb:-top-9.75 tb:h-27.5 tb:w-37.25">
+                <svg
+                  class="absolute inset-0 size-full"
+                  viewBox="0 0 148 110"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M87.3506 16.7617L87.7334 17.2051L88.2803 16.9951L110.239 8.55273L111.367 26.6611L111.414 27.415L112.169 27.4414L136.528 28.2793L125.496 44.1328L124.936 44.9385L125.821 45.3594L146.065 55L125.821 64.6406L124.936 65.0615L125.496 65.8672L136.528 81.7197L112.169 82.5586L111.414 82.585L111.367 83.3389L110.239 101.446L88.2803 93.0049L87.7334 92.7949L87.3506 93.2383L74 108.726L60.6494 93.2383L60.2666 92.7949L59.7197 93.0049L37.7598 101.446L36.6328 83.3389L36.5859 82.585L35.8311 82.5586L11.4707 81.7197L22.5039 65.8672L23.0645 65.0615L22.1787 64.6406L1.93359 55L22.1787 45.3594L23.0645 44.9385L22.5039 44.1328L11.4707 28.2793L35.8311 27.4414L36.5859 27.415L36.6328 26.6611L37.7598 8.55273L59.7197 16.9951L60.2666 17.2051L60.6494 16.7617L74 1.27344Z" fill="var(--color-accent2-base)" stroke="var(--color-off-black)" stroke-width="1.66"/>
+                </svg>
+                <span class="absolute inset-0 flex items-center justify-center text-[0.75rem] font-bold tracking-[-0.02em] text-fg-primary tb:text-[1.3125rem]">
+                  250mg
+                </span>
+              </div></li><li
+            class="relative flex min-h-43.75 items-center border-2 border-off-black bg-accent1-base p-4 tb:min-h-48.75"
+            
+          >
+            <div class="relative h-full w-1/2 shrink-0"><div
+                  class="pointer-events-none absolute left-2/5 top-1/2 size-48 -translate-x-1/2 -translate-y-1/2"
+                  aria-hidden="true"
+                >
+                  <img src="/assets/img_8-196348369.webp" alt="" srcset="/assets/img_8-349e42e38.webp 352w, /assets/img_8-196348369.webp 400w" width="400" height="363" loading="lazy" class="size-full object-contain">
+                </div></div>
+
+            <div class="flex w-1/2 flex-col gap-3"><h3 class="text-[1.5rem] font-black uppercase leading-[0.9] tracking-[-0.02em] text-fg-primary">
+                  L-Carnitine
+                </h3><p class="body-5 font-medium text-fg-primary tb:body-4">
+                  Helps move fatty acids into your cells’ mitochondria (say it with us: the powerhouse of the cell) to be used as energy fuel.
+                </p></div><div class="absolute -left-6 -top-4 h-20.25 w-27.5 -rotate-8 tb:-left-14.75 tb:-top-9.75 tb:h-27.5 tb:w-37.25">
+                <svg
+                  class="absolute inset-0 size-full"
+                  viewBox="0 0 148 110"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M87.3506 16.7617L87.7334 17.2051L88.2803 16.9951L110.239 8.55273L111.367 26.6611L111.414 27.415L112.169 27.4414L136.528 28.2793L125.496 44.1328L124.936 44.9385L125.821 45.3594L146.065 55L125.821 64.6406L124.936 65.0615L125.496 65.8672L136.528 81.7197L112.169 82.5586L111.414 82.585L111.367 83.3389L110.239 101.446L88.2803 93.0049L87.7334 92.7949L87.3506 93.2383L74 108.726L60.6494 93.2383L60.2666 92.7949L59.7197 93.0049L37.7598 101.446L36.6328 83.3389L36.5859 82.585L35.8311 82.5586L11.4707 81.7197L22.5039 65.8672L23.0645 65.0615L22.1787 64.6406L1.93359 55L22.1787 45.3594L23.0645 44.9385L22.5039 44.1328L11.4707 28.2793L35.8311 27.4414L36.5859 27.415L36.6328 26.6611L37.7598 8.55273L59.7197 16.9951L60.2666 17.2051L60.6494 16.7617L74 1.27344Z" fill="var(--color-accent2-base)" stroke="var(--color-off-black)" stroke-width="1.66"/>
+                </svg>
+                <span class="absolute inset-0 flex items-center justify-center text-[0.75rem] font-bold tracking-[-0.02em] text-fg-primary tb:text-[1.3125rem]">
+                  2000mg
+                </span>
+              </div></li><li
+            class="relative flex min-h-43.75 items-center border-2 border-off-black bg-accent1-base p-4 tb:min-h-48.75"
+            
+          >
+            <div class="relative h-full w-1/2 shrink-0"><div
+                  class="pointer-events-none absolute left-2/5 top-1/2 size-48 -translate-x-1/2 -translate-y-1/2"
+                  aria-hidden="true"
+                >
+                  <img src="/assets/img_7-3f9c22f42.webp" alt="" srcset="/assets/img_7-499e73528.webp 352w, /assets/img_7-3f9c22f42.webp 400w" width="400" height="363" loading="lazy" class="size-full object-contain">
+                </div></div>
+
+            <div class="flex w-1/2 flex-col gap-3"><h3 class="text-[1.5rem] font-black uppercase leading-[0.9] tracking-[-0.02em] text-fg-primary">
+                  L-Theanine
+                </h3><p class="body-5 font-medium text-fg-primary tb:body-4">
+                  An amino acid naturally found in tea that promotes calm focus and takes the edge off caffeine.
+                </p></div><div class="absolute -left-6 -top-4 h-20.25 w-27.5 -rotate-8 tb:-left-14.75 tb:-top-9.75 tb:h-27.5 tb:w-37.25">
+                <svg
+                  class="absolute inset-0 size-full"
+                  viewBox="0 0 148 110"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M87.3506 16.7617L87.7334 17.2051L88.2803 16.9951L110.239 8.55273L111.367 26.6611L111.414 27.415L112.169 27.4414L136.528 28.2793L125.496 44.1328L124.936 44.9385L125.821 45.3594L146.065 55L125.821 64.6406L124.936 65.0615L125.496 65.8672L136.528 81.7197L112.169 82.5586L111.414 82.585L111.367 83.3389L110.239 101.446L88.2803 93.0049L87.7334 92.7949L87.3506 93.2383L74 108.726L60.6494 93.2383L60.2666 92.7949L59.7197 93.0049L37.7598 101.446L36.6328 83.3389L36.5859 82.585L35.8311 82.5586L11.4707 81.7197L22.5039 65.8672L23.0645 65.0615L22.1787 64.6406L1.93359 55L22.1787 45.3594L23.0645 44.9385L22.5039 44.1328L11.4707 28.2793L35.8311 27.4414L36.5859 27.415L36.6328 26.6611L37.7598 8.55273L59.7197 16.9951L60.2666 17.2051L60.6494 16.7617L74 1.27344Z" fill="var(--color-accent2-base)" stroke="var(--color-off-black)" stroke-width="1.66"/>
+                </svg>
+                <span class="absolute inset-0 flex items-center justify-center text-[0.75rem] font-bold tracking-[-0.02em] text-fg-primary tb:text-[1.3125rem]">
+                  150mg
+                </span>
+              </div></li></ul><button
+        type="button"
+        class="flex cursor-pointer items-center justify-center border-2 border-off-black bg-white px-8 py-5 text-[1.125rem] font-semibold leading-dense tracking-[-0.03em] text-fg-primary transition-colors duration-200 hover:bg-off-white focus-visible:outline-2 focus-visible:outline-white"
+        data-nutrition-open
+      >
+        View Nutrition Label
+      </button></div><dialog
+      data-nutrition-modal
+      class="m-auto w-[calc(100vw_-_32px)] max-w-150 border-2 border-off-black bg-white p-0 backdrop:bg-off-black/60"
+    >
+      <div class="relative">
+        <button
+          type="button"
+          class="absolute right-3 top-3 z-10 flex size-9 cursor-pointer items-center justify-center rounded-full border-2 border-off-black bg-white text-[1.25rem] leading-none text-fg-primary"
+          aria-label="Close nutrition label"
+          data-nutrition-close
+        >
+          &times;
+        </button><div class="px-4 pb-1 pt-4 tb:px-14">
+            <div class="flex h-11.5 w-full overflow-clip border-2 border-off-black">
+              <button
+                type="button"
+                class="flex-1 cursor-pointer bg-off-black text-center text-[1rem] font-bold leading-dense text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                data-nutrition-sugar="low"
+                aria-pressed="true"
+              >
+                Low Sugar
+              </button>
+              <button
+                type="button"
+                class="flex-1 cursor-pointer text-center text-[1rem] font-bold leading-dense text-fg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                data-nutrition-sugar="sugar-free"
+                aria-pressed="false"
+              >
+                Sugar-Free
+              </button>
+            </div>
+          </div><div data-nutrition-media="low">
+          <picture><source
+        media="(min-width: 992px)"
+        srcset="/assets/NLabel-Juced-LS_bd5657cf-1415-4a86-ab4f-067b8f5dbf30-097a7c6f5.webp 600w, /assets/NLabel-Juced-LS_bd5657cf-1415-4a86-ab4f-067b8f5dbf30-67c4b0061.webp 900w, /assets/NLabel-Juced-LS_bd5657cf-1415-4a86-ab4f-067b8f5dbf30-d45ed3715.webp 1200w"
+        sizes="600px"
+        width="2500"
+        height="2500"
+      ><img src="/assets/NLabel-Juced-LS-Mobile_26729980-b16f-4878-918b-02b6dbba8cb2-9dcd2a6ca.webp" srcset="/assets/NLabel-Juced-LS-Mobile_26729980-b16f-4878-918b-02b6dbba8cb2-659447b41.webp 400w, /assets/NLabel-Juced-LS-Mobile_26729980-b16f-4878-918b-02b6dbba8cb2-3145d6f12.webp 600w, /assets/NLabel-Juced-LS-Mobile_26729980-b16f-4878-918b-02b6dbba8cb2-991d923d1.webp 900w, /assets/NLabel-Juced-LS-Mobile_26729980-b16f-4878-918b-02b6dbba8cb2-9dcd2a6ca.webp 1200w" width="1200" height="4800" loading="lazy" sizes="calc(100vw - 32px)" class="h-auto w-full">
+  </picture>
+        </div><div data-nutrition-media="sugar-free" class="hidden">
+            <picture><source
+        media="(min-width: 992px)"
+        srcset="/assets/NLabel-Juced-SF_88b1df03-07d1-40d3-ab17-3c9477f5e4c3-eb29bcd3d.webp 600w, /assets/NLabel-Juced-SF_88b1df03-07d1-40d3-ab17-3c9477f5e4c3-1ade98ca7.webp 900w, /assets/NLabel-Juced-SF_88b1df03-07d1-40d3-ab17-3c9477f5e4c3-5f96d2c4c.webp 1200w"
+        sizes="600px"
+        width="2500"
+        height="2500"
+      ><img src="/assets/NLabel-Juced-SF-Mobile_d335a1ff-4f97-4d8a-becb-7d8d1bfd7170-b268eb5d3.webp" srcset="/assets/NLabel-Juced-SF-Mobile_d335a1ff-4f97-4d8a-becb-7d8d1bfd7170-849d0bf08.webp 400w, /assets/NLabel-Juced-SF-Mobile_d335a1ff-4f97-4d8a-becb-7d8d1bfd7170-dca279c43.webp 600w, /assets/NLabel-Juced-SF-Mobile_d335a1ff-4f97-4d8a-becb-7d8d1bfd7170-e6e2deb3a.webp 900w, /assets/NLabel-Juced-SF-Mobile_d335a1ff-4f97-4d8a-becb-7d8d1bfd7170-b268eb5d3.webp 1200w" width="1200" height="4800" loading="lazy" sizes="calc(100vw - 32px)" class="h-auto w-full">
+  </picture>
+          </div></div>
+    </dialog></nutrition-modal>
+
+
+</section><section id="shopify-section-template--28448972702067__juced_buybox_mUNhej" class="shopify-section juced-buybox-section"><juced-buybox
+    class="block bg-white"
+    id="offers"
+    data-currency="USD"
+    data-apply-discount="true"
+    data-apply-discount-code="SURPRISE"
+    data-apply-discount-amount="20"
+    data-display-discount-message="true"
+    data-promo-enabled="false"
+    data-promo-code="SURPRISE"
+    data-subscription-promo-percent="32"
+    data-one-time-promo-percent="32"
+    data-two-person-discount-dollars="5"
+    data-subscription-promo-cents="0"
+    data-one-time-promo-cents="0"
+    data-two-person-discount-cents="0"
+  >
+    <div class="mx-auto max-w-page px-4 py-8 tb:px-18 tb:py-20">
+      <div class="flex flex-col gap-8 tb:grid tb:grid-cols-2 tb:items-start tb:gap-10">
+        <div class="w-full tb:sticky tb:top-5">
+          <buybox-gallery class="block" data-active-sugar="low"><nutrition-modal class="contents">
+            <div class="embla__viewport aspect-square w-full overflow-hidden rounded-lg">
+              <div class="embla__container flex h-full"><div
+                        class="embla__slide relative min-w-0 shrink-0 grow-0 basis-full"
+                        data-gallery-slide
+                        data-slide-index="0"
+                        
+>
+                        <div data-sugar-media="low" class="size-full">
+                          <img src="/assets/GalleryImage-ProductwCallouts-LS-5b23eefce.webp" alt="" srcset="/assets/GalleryImage-ProductwCallouts-LS-729b8f926.webp 358w, /assets/GalleryImage-ProductwCallouts-LS-ea9b2f043.webp 600w, /assets/GalleryImage-ProductwCallouts-LS-1b55ee67a.webp 900w, /assets/GalleryImage-ProductwCallouts-LS-9e527a751.webp 1200w, /assets/GalleryImage-ProductwCallouts-LS-5b23eefce.webp 1400w" width="1400" height="1400" loading="eager" fetchpriority="high" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                        <div data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-ProductwCallouts-SF-6f20c3b33.webp" alt="" srcset="/assets/GalleryImage-ProductwCallouts-SF-6d95f9357.webp 358w, /assets/GalleryImage-ProductwCallouts-SF-288f7594a.webp 600w, /assets/GalleryImage-ProductwCallouts-SF-91cc56f62.webp 900w, /assets/GalleryImage-ProductwCallouts-SF-50661cf86.webp 1200w, /assets/GalleryImage-ProductwCallouts-SF-6f20c3b33.webp 1400w" width="1400" height="1400" loading="lazy" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                      </div><div
+                        class="embla__slide relative min-w-0 shrink-0 grow-0 basis-full"
+                        data-gallery-slide
+                        data-slide-index="1"
+                        
+>
+                        <div data-sugar-media="low" class="size-full">
+                          <img src="/assets/GalleryImage-NutritionLabel-0cf3e23c0.webp" alt="" srcset="/assets/GalleryImage-NutritionLabel-16fb5558a.webp 358w, /assets/GalleryImage-NutritionLabel-e3d8f45ac.webp 600w, /assets/GalleryImage-NutritionLabel-709cc3cb3.webp 900w, /assets/GalleryImage-NutritionLabel-279a69c87.webp 1200w, /assets/GalleryImage-NutritionLabel-0cf3e23c0.webp 1400w" width="1400" height="1400" loading="lazy" fetchpriority="auto" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                        <div data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-NutritionLabel_1-f50280850.webp" alt="" srcset="/assets/GalleryImage-NutritionLabel_1-2e8323dac.webp 358w, /assets/GalleryImage-NutritionLabel_1-5f6e2fbd8.webp 600w, /assets/GalleryImage-NutritionLabel_1-5c03f065b.webp 900w, /assets/GalleryImage-NutritionLabel_1-37f1047b1.webp 1200w, /assets/GalleryImage-NutritionLabel_1-f50280850.webp 1400w" width="1400" height="1400" loading="lazy" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                      </div><div
+                        class="embla__slide relative min-w-0 shrink-0 grow-0 basis-full"
+                        data-gallery-slide
+                        data-slide-index="2"
+                        
+>
+                        <div data-sugar-media="low" class="size-full">
+                          <img src="/assets/GalleryImage-WhatToExpect-a4eec7e29.webp" alt="" srcset="/assets/GalleryImage-WhatToExpect-bdc90c631.webp 358w, /assets/GalleryImage-WhatToExpect-f607e1eb1.webp 600w, /assets/GalleryImage-WhatToExpect-f7f3d3e80.webp 900w, /assets/GalleryImage-WhatToExpect-ad35aa362.webp 1200w, /assets/GalleryImage-WhatToExpect-a4eec7e29.webp 1400w" width="1400" height="1400" loading="lazy" fetchpriority="auto" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                        <div data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-WhatToExpect-a4eec7e29.webp" alt="" srcset="/assets/GalleryImage-WhatToExpect-bdc90c631.webp 358w, /assets/GalleryImage-WhatToExpect-f607e1eb1.webp 600w, /assets/GalleryImage-WhatToExpect-f7f3d3e80.webp 900w, /assets/GalleryImage-WhatToExpect-ad35aa362.webp 1200w, /assets/GalleryImage-WhatToExpect-a4eec7e29.webp 1400w" width="1400" height="1400" loading="lazy" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                      </div><div
+                        class="embla__slide relative min-w-0 shrink-0 grow-0 basis-full"
+                        data-gallery-slide
+                        data-slide-index="3"
+                        
+>
+                        <div data-sugar-media="low" class="size-full">
+                          <img src="/assets/GalleryImage-IngredientBenefits-29421fd47.webp" alt="" srcset="/assets/GalleryImage-IngredientBenefits-cc216194e.webp 358w, /assets/GalleryImage-IngredientBenefits-2610405b2.webp 600w, /assets/GalleryImage-IngredientBenefits-062cb0835.webp 900w, /assets/GalleryImage-IngredientBenefits-3199c2b1f.webp 1200w, /assets/GalleryImage-IngredientBenefits-29421fd47.webp 1400w" width="1400" height="1400" loading="lazy" fetchpriority="auto" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                        <div data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-IngredientBenefits-29421fd47.webp" alt="" srcset="/assets/GalleryImage-IngredientBenefits-cc216194e.webp 358w, /assets/GalleryImage-IngredientBenefits-2610405b2.webp 600w, /assets/GalleryImage-IngredientBenefits-062cb0835.webp 900w, /assets/GalleryImage-IngredientBenefits-3199c2b1f.webp 1200w, /assets/GalleryImage-IngredientBenefits-29421fd47.webp 1400w" width="1400" height="1400" loading="lazy" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                      </div><div
+                        class="embla__slide relative min-w-0 shrink-0 grow-0 basis-full"
+                        data-gallery-slide
+                        data-slide-index="4"
+                        
+>
+                        <div data-sugar-media="low" class="size-full">
+                          <img src="/assets/GalleryImage-PreWorkoutComparison-7e7dcacaa.webp" alt="" srcset="/assets/GalleryImage-PreWorkoutComparison-fcb37f353.webp 358w, /assets/GalleryImage-PreWorkoutComparison-dbee37eb4.webp 600w, /assets/GalleryImage-PreWorkoutComparison-e07093a50.webp 900w, /assets/GalleryImage-PreWorkoutComparison-1e617d630.webp 1200w, /assets/GalleryImage-PreWorkoutComparison-7e7dcacaa.webp 1400w" width="1400" height="1400" loading="lazy" fetchpriority="auto" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                        <div data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-PreWorkoutComparison-7e7dcacaa.webp" alt="" srcset="/assets/GalleryImage-PreWorkoutComparison-fcb37f353.webp 358w, /assets/GalleryImage-PreWorkoutComparison-dbee37eb4.webp 600w, /assets/GalleryImage-PreWorkoutComparison-e07093a50.webp 900w, /assets/GalleryImage-PreWorkoutComparison-1e617d630.webp 1200w, /assets/GalleryImage-PreWorkoutComparison-7e7dcacaa.webp 1400w" width="1400" height="1400" loading="lazy" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                      </div><div
+                        class="embla__slide relative min-w-0 shrink-0 grow-0 basis-full"
+                        data-gallery-slide
+                        data-slide-index="5"
+                        
+>
+                        <div data-sugar-media="low" class="size-full">
+                          <img src="/assets/GalleryImage-AdditionalConvincing-a00f0ade9.webp" alt="" srcset="/assets/GalleryImage-AdditionalConvincing-04596b068.webp 358w, /assets/GalleryImage-AdditionalConvincing-ddd8bb2c5.webp 600w, /assets/GalleryImage-AdditionalConvincing-b005fe8b8.webp 900w, /assets/GalleryImage-AdditionalConvincing-a3c7583bd.webp 1200w, /assets/GalleryImage-AdditionalConvincing-a00f0ade9.webp 1400w" width="1400" height="1400" loading="lazy" fetchpriority="auto" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                        <div data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-AdditionalConvincing-a00f0ade9.webp" alt="" srcset="/assets/GalleryImage-AdditionalConvincing-04596b068.webp 358w, /assets/GalleryImage-AdditionalConvincing-ddd8bb2c5.webp 600w, /assets/GalleryImage-AdditionalConvincing-b005fe8b8.webp 900w, /assets/GalleryImage-AdditionalConvincing-a3c7583bd.webp 1200w, /assets/GalleryImage-AdditionalConvincing-a00f0ade9.webp 1400w" width="1400" height="1400" loading="lazy" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="size-full object-cover">
+                        </div>
+                      </div></div>
+            </div>
+
+            <div
+              class="gallery-thumbs-nav mt-3 flex w-full gap-2 overflow-x-auto"
+              aria-label="Product gallery thumbnails"
+            ><button
+                      type="button"
+                      class="gallery-nav-slide size-14 shrink-0 overflow-hidden rounded border border-transparent opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      data-slide-index="0"
+                      aria-label="Go to product image 1"
+                      
+                        aria-current="true"
+                      
+                    >
+                      <span data-sugar-media="low" class="block size-full">
+                        <img src="/assets/GalleryImage-ProductwCallouts-LS-df20af701.webp" alt="" srcset="/assets/GalleryImage-ProductwCallouts-LS-62924a603.webp 56w, /assets/GalleryImage-ProductwCallouts-LS-201e44db9.webp 112w, /assets/GalleryImage-ProductwCallouts-LS-df20af701.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                      <span data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-ProductwCallouts-SF-31d97b963.webp" alt="" srcset="/assets/GalleryImage-ProductwCallouts-SF-f0a2f6394.webp 56w, /assets/GalleryImage-ProductwCallouts-SF-219620052.webp 112w, /assets/GalleryImage-ProductwCallouts-SF-31d97b963.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                    </button><button
+                      type="button"
+                      class="gallery-nav-slide size-14 shrink-0 overflow-hidden rounded border border-transparent opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      data-slide-index="1"
+                      aria-label="Go to product image 2"
+                      
+                    >
+                      <span data-sugar-media="low" class="block size-full">
+                        <img src="/assets/GalleryImage-NutritionLabel-a0eed9222.webp" alt="" srcset="/assets/GalleryImage-NutritionLabel-216a72013.webp 56w, /assets/GalleryImage-NutritionLabel-b9510db9d.webp 112w, /assets/GalleryImage-NutritionLabel-a0eed9222.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                      <span data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-NutritionLabel_1-2a203d018.webp" alt="" srcset="/assets/GalleryImage-NutritionLabel_1-67fd037f2.webp 56w, /assets/GalleryImage-NutritionLabel_1-8f4684eb7.webp 112w, /assets/GalleryImage-NutritionLabel_1-2a203d018.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                    </button><button
+                      type="button"
+                      class="gallery-nav-slide size-14 shrink-0 overflow-hidden rounded border border-transparent opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      data-slide-index="2"
+                      aria-label="Go to product image 3"
+                      
+                    >
+                      <span data-sugar-media="low" class="block size-full">
+                        <img src="/assets/GalleryImage-WhatToExpect-601143e84.webp" alt="" srcset="/assets/GalleryImage-WhatToExpect-6cbe0fa4a.webp 56w, /assets/GalleryImage-WhatToExpect-ea2e821f6.webp 112w, /assets/GalleryImage-WhatToExpect-601143e84.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                      <span data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-WhatToExpect-601143e84.webp" alt="" srcset="/assets/GalleryImage-WhatToExpect-6cbe0fa4a.webp 56w, /assets/GalleryImage-WhatToExpect-ea2e821f6.webp 112w, /assets/GalleryImage-WhatToExpect-601143e84.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                    </button><button
+                      type="button"
+                      class="gallery-nav-slide size-14 shrink-0 overflow-hidden rounded border border-transparent opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      data-slide-index="3"
+                      aria-label="Go to product image 4"
+                      
+                    >
+                      <span data-sugar-media="low" class="block size-full">
+                        <img src="/assets/GalleryImage-IngredientBenefits-e2fe3fa87.webp" alt="" srcset="/assets/GalleryImage-IngredientBenefits-d01eb71d5.webp 56w, /assets/GalleryImage-IngredientBenefits-7b5aa12a5.webp 112w, /assets/GalleryImage-IngredientBenefits-e2fe3fa87.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                      <span data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-IngredientBenefits-e2fe3fa87.webp" alt="" srcset="/assets/GalleryImage-IngredientBenefits-d01eb71d5.webp 56w, /assets/GalleryImage-IngredientBenefits-7b5aa12a5.webp 112w, /assets/GalleryImage-IngredientBenefits-e2fe3fa87.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                    </button><button
+                      type="button"
+                      class="gallery-nav-slide size-14 shrink-0 overflow-hidden rounded border border-transparent opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      data-slide-index="4"
+                      aria-label="Go to product image 5"
+                      
+                    >
+                      <span data-sugar-media="low" class="block size-full">
+                        <img src="/assets/GalleryImage-PreWorkoutComparison-2dc364fb8.webp" alt="" srcset="/assets/GalleryImage-PreWorkoutComparison-f826b0cf3.webp 56w, /assets/GalleryImage-PreWorkoutComparison-1fdca7c8c.webp 112w, /assets/GalleryImage-PreWorkoutComparison-2dc364fb8.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                      <span data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-PreWorkoutComparison-2dc364fb8.webp" alt="" srcset="/assets/GalleryImage-PreWorkoutComparison-f826b0cf3.webp 56w, /assets/GalleryImage-PreWorkoutComparison-1fdca7c8c.webp 112w, /assets/GalleryImage-PreWorkoutComparison-2dc364fb8.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                    </button><button
+                      type="button"
+                      class="gallery-nav-slide size-14 shrink-0 overflow-hidden rounded border border-transparent opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      data-slide-index="5"
+                      aria-label="Go to product image 6"
+                      
+                    >
+                      <span data-sugar-media="low" class="block size-full">
+                        <img src="/assets/GalleryImage-AdditionalConvincing-af1955b94.webp" alt="" srcset="/assets/GalleryImage-AdditionalConvincing-ff1e29f95.webp 56w, /assets/GalleryImage-AdditionalConvincing-c76c6a227.webp 112w, /assets/GalleryImage-AdditionalConvincing-af1955b94.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                      <span data-sugar-media="sugar-free" class="hidden size-full"><img src="/assets/GalleryImage-AdditionalConvincing-af1955b94.webp" alt="" srcset="/assets/GalleryImage-AdditionalConvincing-ff1e29f95.webp 56w, /assets/GalleryImage-AdditionalConvincing-c76c6a227.webp 112w, /assets/GalleryImage-AdditionalConvincing-af1955b94.webp 160w" width="160" height="160" loading="lazy" sizes="56px" class="size-full object-cover">
+                      </span>
+                    </button></div></nutrition-modal>
+          </buybox-gallery>
+        </div>
+
+        <div class="flex w-full flex-col gap-8">
+          <div class="flex flex-col gap-4"><div
+                class="body-3 richtext-accent text-fg-secondary [&_p]:body-3"
+                style="--bold-color: var(--color-primary);"
+              >
+                <p><strong>4.8</strong> stars | <strong>100K+</strong> reviews | <strong>1M+</strong> members</p>
+              </div><h2 class="d3 uppercase text-primary">
+                Jüced Energy Gummies
+              </h2><p class="body-2 font-semibold leading-dense text-fg-primary">
+                Meet Jüced: delish pre-anything energy gummies made for whatever you're doing.
+              </p><div class="flex items-center gap-4">
+              <ul class="flex flex-1 flex-col gap-2"><li class="border-l-3 border-secondary pl-3 body-3 text-fg-primary" >
+                      75mg of real caffeine
+                    </li><li class="border-l-3 border-secondary pl-3 body-3 text-fg-primary" >
+                      Doesn’t cause beta-alanine tingles or niacin flushes*
+                    </li><li class="border-l-3 border-secondary pl-3 body-3 text-fg-primary" >
+                      Ingredients in Jüced support both immediate energy and long-term training benefits
+                    </li><li class="border-l-3 border-secondary pl-3 body-3 text-fg-primary" >
+                      7g of fiber to support digestion*
+                    </li></ul>
+              <div class="w-14 shrink-0 text-primary-strongest">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="currentColor" aria-hidden="true">
+  <title>Ü Mark</title>
+  <path d="m12.232 32.844-3.232-14.008 5.163-1.18.829 3.474 4.044 17.613c1.062 4.629 3.545 8.764 8.821 9.043 3.029.16 6.11-.538 8.893-1.745 4.846-2.101 5.572-6.596 4.721-11.372l-5.032-21.918 5.212-1.167 1.762 7.868 2.871 12.398c.642 2.775.886 5.518.593 8.328-.654 6.281-5.222 10.206-11.011 11.833-3.95 1.109-7.369 1.538-11.377.486-2.33-.61-4.338-1.669-6.029-3.454-2.504-2.642-3.96-6.058-4.76-9.636l-1.467-6.565v.002ZM18.932 7.329c1.55 1.73.916 4.274-.908 5.274-1.924 1.054-4.194.139-4.908-1.864-.714-2.004.598-4.358 2.837-4.57 1.071-.101 2.237.336 2.977 1.161l.002-.002ZM33.654 4.073c1.55 1.73.916 4.274-.908 5.274-1.925 1.054-4.194.14-4.908-1.864-.714-2.004.598-4.358 2.839-4.57 1.071-.101 2.237.336 2.977 1.161v-.002Z" />
+</svg>
+
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="hidden"
+            data-product-config
+            data-sugar="low"
+            data-variant-id="63012568662387"
+            data-available="true"
+            data-retail-price="6665"
+            data-allocation-price="4999"
+            data-selling-plan-id="692203848051"
+            data-first-price=""
+          ></div>
+          <div
+            class="hidden"
+            data-product-config
+            data-sugar="sugar-free"
+            data-variant-id="63012568727923"
+            data-available="true"
+            data-retail-price="7332"
+            data-allocation-price="5499"
+            data-selling-plan-id="692203848051"
+            data-first-price=""
+          ></div>
+
+          <form class="flex flex-col gap-3" data-buybox-form novalidate>
+            <fieldset>
+              <legend class="sr-only">Choose sugar level</legend>
+              <div class="flex bg-primary-weakest p-1">
+                <button
+                  type="button"
+                  class="flex-1 bg-primary-strongest px-4 py-4 text-center label-1 uppercase text-fg-primary-inverse focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                  data-sugar-option="low"
+                  aria-pressed="true"
+                >
+                  Low Sugar
+                </button>
+                <button
+                  type="button"
+                  class="flex-1 px-4 py-4 text-center label-1 uppercase text-fg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                  data-sugar-option="sugar-free"
+                  aria-pressed="false"
+                >
+                  Sugar-Free
+                </button>
+              </div>
+            </fieldset>
+
+            <fieldset class="flex flex-col gap-6">
+              <legend class="sr-only">Choose purchase option</legend>
+
+              <div class="border-2 border-primary-strongest p-4" data-subscription-panel>
+                <p class="body-2 mb-2 font-semibold text-primary-strongest">
+                  AutoShip & Save
+                </p>
+
+                <div class="flex flex-col gap-2">
+                  <label
+                    class="flex cursor-pointer items-start gap-2 border-2 border-primary-strongest bg-primary-weakest p-3 text-primary-strongest"
+                    data-purchase-card="subscription-one"
+                  >
+                    <input
+                      type="radio"
+                      name="purchase-option-template--28448972702067__juced_buybox_mUNhej"
+                      value="subscription-one"
+                      class="sr-only"
+                      data-purchase-option
+                      checked
+                    >
+                    <span
+                      class="mt-1 flex size-5 shrink-0 items-center justify-center rounded-full border border-primary-strongest"
+                      aria-hidden="true"
+                    >
+                      <span class="size-2.5 rounded-full bg-primary-base" data-radio-dot></span>
+                    </span>
+                    <span class="flex min-w-0 flex-1 items-start justify-between gap-3">
+                      <span class="flex flex-col">
+                        <span class="body-3">One Person</span>
+                        <span class="flex items-baseline gap-1">
+                          <span class="price" data-price="subscription-one">—</span>
+                          <span class="price-discount" data-compare-price="subscription-one">—</span>
+                        </span>
+                        <span class="body-4 text-primary-strong" data-daily-price="subscription-one">— Per Day</span>
+                      </span>
+                      <span
+                        class="body-2 shrink-0 rounded-full bg-accent2-base px-3 py-1 font-semibold text-fg-primary"
+                        data-discount-badge="subscription-one"
+                      >
+                        —% off
+                      </span>
+                    </span>
+                  </label>
+
+                  <label
+                    class="flex cursor-pointer items-start gap-2 border border-primary-strongest bg-white p-3 text-primary-strongest"
+                    data-purchase-card="subscription-two"
+                  >
+                    <input
+                      type="radio"
+                      name="purchase-option-template--28448972702067__juced_buybox_mUNhej"
+                      value="subscription-two"
+                      class="sr-only"
+                      data-purchase-option
+                    >
+                    <span
+                      class="mt-1 flex size-5 shrink-0 items-center justify-center rounded-full border border-primary-strongest"
+                      aria-hidden="true"
+                    >
+                      <span class="hidden size-2.5 rounded-full bg-primary-base" data-radio-dot></span>
+                    </span>
+                    <span class="flex min-w-0 flex-1 items-start justify-between gap-3">
+                      <span class="flex flex-col">
+                        <span class="body-3">Two People</span>
+                        <span class="flex items-baseline gap-1">
+                          <span class="price" data-price="subscription-two">—</span>
+                          <span class="price-discount" data-compare-price="subscription-two">—</span>
+                        </span>
+                        <span class="body-4 text-primary-strong" data-daily-price="subscription-two">— Per Day</span>
+                      </span>
+                      <span
+                        class="body-2 shrink-0 rounded-full bg-accent2-base px-3 py-1 font-semibold text-fg-primary"
+                        data-discount-badge="subscription-two"
+                      >
+                        —% off
+                      </span>
+                    </span>
+                  </label>
+                </div>
+
+                <ul class="mt-4 flex flex-col gap-1 body-4 text-primary-strongest">
+                  <li class="flex items-center gap-2">
+                    <span class="text-primary" aria-hidden="true">✓</span>
+                    <span
+                      data-pack-copy
+                      data-one-person-copy="28 packs every 4 weeks (224 gummies)"
+                      data-two-person-copy="56 packs every 4 weeks (448 gummies)"
+                    >
+                      28 packs every 4 weeks (224 gummies)
+                    </span>
+                  </li><li class="flex items-center gap-2" >
+                        <span class="text-primary" aria-hidden="true">✓</span>
+                        <span>FAST & FREE Shipping On First Order</span>
+                      </li><li class="flex items-center gap-2" >
+                        <span class="text-primary" aria-hidden="true">✓</span>
+                        <span>Pause or cancel anytime</span>
+                      </li><li class="flex items-center gap-2" >
+                        <span class="text-primary" aria-hidden="true">✓</span>
+                        <span>30-day money back guarantee</span>
+                      </li></ul>
+
+                <p class="mt-4 hidden body-4 text-primary-strongest" data-discount-message>
+                  Discount auto-applied ✅
+                </p>
+
+                <div class="mt-6" data-cta-slot="subscription">
+                  <button
+                    type="submit"
+                    class="btn btn-primary h-auto w-full rounded-none border-2 border-off-black py-5 text-fg-primary tb:w-full"
+                    data-add-to-cart
+                  >
+                    <span data-add-to-cart-text>Start Now</span>
+                  </button>
+                </div>
+              </div>
+
+              <div
+                class="flex flex-col border border-primary-strongest bg-white p-3 text-primary-strongest"
+                data-purchase-card="one-time"
+              >
+                <label class="flex cursor-pointer items-start gap-2">
+                  <input
+                    type="radio"
+                    name="purchase-option-template--28448972702067__juced_buybox_mUNhej"
+                    value="one-time"
+                    class="sr-only"
+                    data-purchase-option
+                  >
+                  <span
+                    class="mt-1 flex size-5 shrink-0 items-center justify-center rounded-full border border-primary-strongest"
+                    aria-hidden="true"
+                  >
+                    <span class="hidden size-2.5 rounded-full bg-primary-base" data-radio-dot></span>
+                  </span>
+                  <span class="flex flex-col">
+                    <span class="body-3">Try Once</span>
+                    <span class="flex items-baseline gap-1">
+                      <span class="price" data-price="one-time">—</span>
+                      <span class="price-discount" data-compare-price="one-time">—</span>
+                    </span>
+                    <span class="body-4 text-primary-strong" data-daily-price="one-time">— Per Day</span>
+                  </span>
+                </label>
+                <span class="mt-4 hidden" data-cta-slot="one-time"></span>
+              </div>
+            </fieldset>
+
+            <input type="hidden" name="id" data-variant-input>
+            <input type="hidden" name="quantity" value="1" data-quantity-input>
+            <input type="hidden" name="selling_plan" data-selling-plan-input>
+            <p class="body-4 hidden text-secondary" role="alert" data-form-error></p>
+          </form><div class="flex flex-col gap-4 text-center">
+              <h3 class="h3 text-primary-strongest">Tastes like</h3>
+              <div class="relative flex h-54 items-center justify-center overflow-hidden border-2 border-off-black px-4 py-8">
+                <img src="/assets/peach_taste_like_image_1x_d3efc486-d63f-41d6-86d7-b76e4539a655-c7cbc4a0b.webp" alt="" srcset="/assets/peach_taste_like_image_1x_d3efc486-d63f-41d6-86d7-b76e4539a655-bec63a8a6.webp 358w, /assets/peach_taste_like_image_1x_d3efc486-d63f-41d6-86d7-b76e4539a655-ba55f2270.webp 600w, /assets/peach_taste_like_image_1x_d3efc486-d63f-41d6-86d7-b76e4539a655-6e0c2130a.webp 900w, /assets/peach_taste_like_image_1x_d3efc486-d63f-41d6-86d7-b76e4539a655-3e66205bf.webp 1200w, /assets/peach_taste_like_image_1x_d3efc486-d63f-41d6-86d7-b76e4539a655-c7cbc4a0b.webp 1400w" width="1400" height="485" loading="lazy" sizes="(min-width: 992px) 44vw, calc(100vw - 32px)" class="absolute inset-0 size-full object-cover">
+<p class="relative d3 uppercase text-white [text-shadow:2px_2px_0_var(--color-off-black)]">
+                    Electric Peach
+                  </p></div>
+            </div><div class="flex flex-col gap-4 text-center">
+              <h3 class="h3 text-primary-strongest">All you have to do is...</h3>
+              <div class="grid grid-cols-1 gap-2 tb:grid-cols-3"><div class="relative border-2 border-off-black">
+                      <img src="/assets/step_9-41f743e97.webp" alt="" srcset="/assets/step_9-3e6ef67ec.webp 358w, /assets/step_9-fcbdd9c76.webp 600w, /assets/step_9-192be48ec.webp 800w, /assets/step_9-41f743e97.webp 1000w" width="1000" height="615" loading="lazy" sizes="(min-width: 992px) 15vw, calc(100vw - 32px)" class="aspect-358/220 w-full object-cover tb:aspect-154/145">
+<span class="pointer-events-none absolute left-3 top-2 -m-8 block p-8 -rotate-12 font-tertiary text-[4.5rem] leading-none text-white opacity-80 [text-shadow:0.5px_0.5px_0_var(--color-off-black)]">Rip</span></div><div class="relative border-2 border-off-black">
+                      <img src="/assets/step_10-f82614f61.webp" alt="" srcset="/assets/step_10-7e0ef869a.webp 358w, /assets/step_10-1eea576f6.webp 600w, /assets/step_10-3fc4de856.webp 800w, /assets/step_10-f82614f61.webp 1000w" width="1000" height="615" loading="lazy" sizes="(min-width: 992px) 15vw, calc(100vw - 32px)" class="aspect-358/220 w-full object-cover tb:aspect-154/145">
+<span class="pointer-events-none absolute left-3 top-2 -m-8 block p-8 -rotate-12 font-tertiary text-[4.5rem] leading-none text-white opacity-80 [text-shadow:0.5px_0.5px_0_var(--color-off-black)]">Tip</span></div><div class="relative border-2 border-off-black">
+                      <img src="/assets/step_11-592ce112d.webp" alt="" srcset="/assets/step_11-a122495a4.webp 358w, /assets/step_11-c6b294168.webp 600w, /assets/step_11-8dd625ec8.webp 800w, /assets/step_11-592ce112d.webp 1000w" width="1000" height="615" loading="lazy" sizes="(min-width: 992px) 15vw, calc(100vw - 32px)" class="aspect-358/220 w-full object-cover tb:aspect-154/145">
+<span class="pointer-events-none absolute left-3 top-2 -m-8 block p-8 -rotate-12 font-tertiary text-[4.5rem] leading-none text-white opacity-80 [text-shadow:0.5px_0.5px_0_var(--color-off-black)]">Enjoy</span></div></div>
+            </div><div class="flex flex-col"><accordion-item class="block border-b border-fg-tertiary py-3" >
+                  <h3>
+                    <button
+                      id="trigger-faq_LqnAe8"
+                      type="button"
+                      class="flex w-full items-center justify-between gap-6 text-left h5 text-fg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      aria-expanded="false"
+                      aria-controls="panel-faq_LqnAe8"
+                      data-trigger
+                    >
+                      <span>What does Jüced taste like?</span>
+                      <span class="relative size-5 shrink-0" aria-hidden="true">
+                        <span class="absolute left-0 top-1/2 h-px w-full -translate-y-1/2 bg-off-black"></span>
+                        <span
+                          class="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-off-black"
+                          data-rotate
+                        ></span>
+                      </span>
+                    </button>
+                  </h3>
+                  <div
+                    id="panel-faq_LqnAe8"
+                    role="region"
+                    aria-labelledby="trigger-faq_LqnAe8"
+                    data-panel
+                  >
+                    <div class="pt-3 body-4 text-fg-secondary [&_a]:underline [&_p]:body-4">
+                      <p>Jüced hits with an electric peach flavor and a slight bitter edge from real caffeine. Unlike most pre-workouts that bury the taste under aggressive sour blends or artificial sweetness, Jüced keeps things simple, so that natural bite comes through. Give it a few uses. The sour punch tends to win people over.</p>
+                    </div>
+                  </div>
+                </accordion-item><accordion-item class="block border-b border-fg-tertiary py-3" >
+                  <h3>
+                    <button
+                      id="trigger-faq_htK3f6"
+                      type="button"
+                      class="flex w-full items-center justify-between gap-6 text-left h5 text-fg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      aria-expanded="false"
+                      aria-controls="panel-faq_htK3f6"
+                      data-trigger
+                    >
+                      <span>What makes Jüced different from other pre-workouts?</span>
+                      <span class="relative size-5 shrink-0" aria-hidden="true">
+                        <span class="absolute left-0 top-1/2 h-px w-full -translate-y-1/2 bg-off-black"></span>
+                        <span
+                          class="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-off-black"
+                          data-rotate
+                        ></span>
+                      </span>
+                    </button>
+                  </h3>
+                  <div
+                    id="panel-faq_htK3f6"
+                    role="region"
+                    aria-labelledby="trigger-faq_htK3f6"
+                    data-panel
+                  >
+                    <div class="pt-3 body-4 text-fg-secondary [&_a]:underline [&_p]:body-4">
+                      <p><span style="text-decoration:underline"><strong>Ingredients & allergies</strong></span></p><ul><li>75mg of Caffeine</li><li>2000mg of L-Carnitine</li><li>250mg of Cognizin® Citicoline</li><li>150mg of L-Theanine</li><li>5.2mg of Vitamin B6</li><li>9.6mcg of Vitamin B12</li><li>7g of prebiotic fiber</li></ul><p><br/></p><p>Jüced is gluten-free, dairy-free, nut-free, vegan, non-GMO, and contains no synthetic sweeteners, no synthetic dyes.</p><p><br/></p><p>Jüced contains caffeine, but is made without the other major allergens recognized by the FDA, including gluten, dairy, nuts, and soy. They're also vegan and made without synthetic sweeteners, dyes, or gelatin. Every batch is tested for quality and safety, using globally sourced ingredients selected for their efficacy. All Jüced products are produced in GMP- and NSF-certified facilities in the USA to ensure top-quality standards.</p>
+                    </div>
+                  </div>
+                </accordion-item><accordion-item class="block border-b border-fg-tertiary py-3" >
+                  <h3>
+                    <button
+                      id="trigger-faq_Yyaf4g"
+                      type="button"
+                      class="flex w-full items-center justify-between gap-6 text-left h5 text-fg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      aria-expanded="false"
+                      aria-controls="panel-faq_Yyaf4g"
+                      data-trigger
+                    >
+                      <span>What’s inside Jüced that gives me energy?</span>
+                      <span class="relative size-5 shrink-0" aria-hidden="true">
+                        <span class="absolute left-0 top-1/2 h-px w-full -translate-y-1/2 bg-off-black"></span>
+                        <span
+                          class="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-off-black"
+                          data-rotate
+                        ></span>
+                      </span>
+                    </button>
+                  </h3>
+                  <div
+                    id="panel-faq_Yyaf4g"
+                    role="region"
+                    aria-labelledby="trigger-faq_Yyaf4g"
+                    data-panel
+                  >
+                    <div class="pt-3 body-4 text-fg-secondary [&_a]:underline [&_p]:body-4">
+                      <p>Each pack delivers 75mg of caffeine plus L-Carnitine, Cognizin® Citicoline, L-Theanine, and B vitamins, with prebiotic fiber for focus, energy, and recovery.</p>
+                    </div>
+                  </div>
+                </accordion-item><accordion-item class="block border-b border-fg-tertiary py-3" >
+                  <h3>
+                    <button
+                      id="trigger-faq_3i7nAB"
+                      type="button"
+                      class="flex w-full items-center justify-between gap-6 text-left h5 text-fg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      aria-expanded="false"
+                      aria-controls="panel-faq_3i7nAB"
+                      data-trigger
+                    >
+                      <span>Can I take Jüced if I don’t work out?</span>
+                      <span class="relative size-5 shrink-0" aria-hidden="true">
+                        <span class="absolute left-0 top-1/2 h-px w-full -translate-y-1/2 bg-off-black"></span>
+                        <span
+                          class="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-off-black"
+                          data-rotate
+                        ></span>
+                      </span>
+                    </button>
+                  </h3>
+                  <div
+                    id="panel-faq_3i7nAB"
+                    role="region"
+                    aria-labelledby="trigger-faq_3i7nAB"
+                    data-panel
+                  >
+                    <div class="pt-3 body-4 text-fg-secondary [&_a]:underline [&_p]:body-4">
+                      <p>Totally. Jüced is “pre-anything,” not just pre-workout. Take it before a walk, study session, night out, or whenever you need clean, portable energy.</p>
+                    </div>
+                  </div>
+                </accordion-item><accordion-item class="block border-b border-fg-tertiary py-3" >
+                  <h3>
+                    <button
+                      id="trigger-faq_ApHiFN"
+                      type="button"
+                      class="flex w-full items-center justify-between gap-6 text-left h5 text-fg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      aria-expanded="false"
+                      aria-controls="panel-faq_ApHiFN"
+                      data-trigger
+                    >
+                      <span>When should I take Jüced?</span>
+                      <span class="relative size-5 shrink-0" aria-hidden="true">
+                        <span class="absolute left-0 top-1/2 h-px w-full -translate-y-1/2 bg-off-black"></span>
+                        <span
+                          class="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-off-black"
+                          data-rotate
+                        ></span>
+                      </span>
+                    </button>
+                  </h3>
+                  <div
+                    id="panel-faq_ApHiFN"
+                    role="region"
+                    aria-labelledby="trigger-faq_ApHiFN"
+                    data-panel
+                  >
+                    <div class="pt-3 body-4 text-fg-secondary [&_a]:underline [&_p]:body-4">
+                      <p>Take Jüced about 30–60 minutes before your workout or whenever you need some energy. You’ll feel the lift quickly, and consistency builds long-term performance benefits.</p>
+                    </div>
+                  </div>
+                </accordion-item><accordion-item class="block border-b border-fg-tertiary py-3" >
+                  <h3>
+                    <button
+                      id="trigger-faq_cWpgqa"
+                      type="button"
+                      class="flex w-full items-center justify-between gap-6 text-left h5 text-fg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-off-black"
+                      aria-expanded="false"
+                      aria-controls="panel-faq_cWpgqa"
+                      data-trigger
+                    >
+                      <span>Who is Jüced for?</span>
+                      <span class="relative size-5 shrink-0" aria-hidden="true">
+                        <span class="absolute left-0 top-1/2 h-px w-full -translate-y-1/2 bg-off-black"></span>
+                        <span
+                          class="absolute left-1/2 top-0 h-full w-px -translate-x-1/2 bg-off-black"
+                          data-rotate
+                        ></span>
+                      </span>
+                    </button>
+                  </h3>
+                  <div
+                    id="panel-faq_cWpgqa"
+                    role="region"
+                    aria-labelledby="trigger-faq_cWpgqa"
+                    data-panel
+                  >
+                    <div class="pt-3 body-4 text-fg-secondary [&_a]:underline [&_p]:body-4">
+                      <p>Anyone who likes to move, not just heavy lifters. Whether you’re a runner, a yogi, a hot-girl-walk enthusiast, or just need a mid-day lift, Jüced is made for you.</p>
+                    </div>
+                  </div>
+                </accordion-item></div><div class="body-4 text-fg-primary [&_a]:font-bold [&_a]:underline [&_p]:body-4">
+              <p>HSA/FSA Eligible with Truemed. <a href="https://app.truemed.com/qualify/tm_qual_37138viy65" target="_blank">Learn More.</a></p>
+            </div></div>
+      </div>
+    </div>
+  </juced-buybox>
+</section><section id="shopify-section-template--28448972702067__juced_brand_reviews_TbN3MF" class="shopify-section juced-brand-reviews"><style data-shopify>
+  #shopify-section-template--28448972702067__juced_brand_reviews_TbN3MF .brand-reviews__viewport {
+    overflow: visible;
+  }
+
+  #shopify-section-template--28448972702067__juced_brand_reviews_TbN3MF .brand-reviews__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: -24px;
+  }
+
+  #shopify-section-template--28448972702067__juced_brand_reviews_TbN3MF .brand-reviews__slide {
+    flex: 0 0 264px;
+    min-width: 0;
+    padding-left: 24px;
+  }
+
+  @media (min-width: 992px) {
+    #shopify-section-template--28448972702067__juced_brand_reviews_TbN3MF .brand-reviews__slide {
+      flex-basis: 309px;
+    }
+  }
+
+  #shopify-section-template--28448972702067__juced_brand_reviews_TbN3MF .brand-reviews__video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+
+
+<div class="bg-off-white px-4 py-8 tb:p-18">
+  <div class="mx-auto flex max-w-page flex-col items-center gap-12"><h2 class="max-w-152 text-center text-[2.625rem] leading-display font-black uppercase tracking-[-0.01em] text-fg-primary tb:text-[3.5rem]">They got Jüced. You’re up next.</h2><div class="relative w-full">
+        <embla-carousel>
+          <div class="embla">
+            <div class="embla__viewport brand-reviews__viewport">
+              <div class="embla__container brand-reviews__container"><div class="embla__slide brand-reviews__slide" ><div class="relative h-107 border-2 border-off-black bg-accent1-base tb:h-127"><div class="brand-reviews__video relative size-full overflow-hidden"><div style="padding:180.78% 0 0 0;position:relative;"><iframe loading="lazy" src="https://player.vimeo.com/video/1140562546?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="bobby_ingredients_web"></iframe></div></div>
+                        </div></div><div class="embla__slide brand-reviews__slide" ><figure
+                          class="relative m-0 flex h-107 flex-col items-center justify-center gap-4 border-2 border-off-black px-4 text-center tb:h-127"
+                          style="background-color: #f1c5a6;"
+                        ><span
+                              class="h6 absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap border-2 border-off-black px-2 py-0.5 text-fg-primary"
+                              style="background-color: #f1c5a6;"
+                            >Ingredients</span><div class="flex gap-1 text-primary" aria-label="5 star review"><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span></div><blockquote class="h4 tb:h3 m-0 text-fg-primary">Really like the ingredient lineup, feels steady and focused with none of the weird tingles I used to get.</blockquote><figcaption class="h6 text-fg-primary">Jack O.</figcaption></figure></div><div class="embla__slide brand-reviews__slide" ><div class="relative h-107 border-2 border-off-black bg-accent1-base tb:h-127"><div class="brand-reviews__video relative size-full overflow-hidden"><div style="padding:180% 0 0 0;position:relative;"><iframe loading="lazy" src="https://player.vimeo.com/video/1140562517?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="rexireed_convenience_web"></iframe></div></div>
+                        </div></div><div class="embla__slide brand-reviews__slide" ><figure
+                          class="relative m-0 flex h-107 flex-col items-center justify-center gap-4 border-2 border-off-black px-4 text-center tb:h-127"
+                          style="background-color: #f1c5a6;"
+                        ><span
+                              class="h6 absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap border-2 border-off-black px-2 py-0.5 text-fg-primary"
+                              style="background-color: #f1c5a6;"
+                            >Convenience</span><div class="flex gap-1 text-primary" aria-label="5 star review"><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span></div><blockquote class="h4 tb:h3 m-0 text-fg-primary">Super easy to use before a class or lift, no mixing or bottles, just grab it and go.</blockquote><figcaption class="h6 text-fg-primary">Jordan S.</figcaption></figure></div><div class="embla__slide brand-reviews__slide" ><div class="relative h-107 border-2 border-off-black bg-accent1-base tb:h-127"><div class="brand-reviews__video relative size-full overflow-hidden"><div style="padding:180% 0 0 0;position:relative;"><iframe loading="lazy" src="https://player.vimeo.com/video/1142252082?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="caitlyn_vsalternative_web"></iframe></div></div>
+                        </div></div><div class="embla__slide brand-reviews__slide" ><figure
+                          class="relative m-0 flex h-107 flex-col items-center justify-center gap-4 border-2 border-off-black px-4 text-center tb:h-127"
+                          style="background-color: #f1c5a6;"
+                        ><span
+                              class="h6 absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap border-2 border-off-black px-2 py-0.5 text-fg-primary"
+                              style="background-color: #f1c5a6;"
+                            >Value</span><div class="flex gap-1 text-primary" aria-label="5 star review"><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span></div><blockquote class="h4 tb:h3 m-0 text-fg-primary">Better than powders or energy drinks for me, no prep or mess, just something I can take quickly and get moving.</blockquote><figcaption class="h6 text-fg-primary">Marissa K.</figcaption></figure></div><div class="embla__slide brand-reviews__slide" ><div class="relative h-107 border-2 border-off-black bg-accent1-base tb:h-127"><div class="brand-reviews__video relative size-full overflow-hidden"><div style="padding:180% 0 0 0;position:relative;"><iframe loading="lazy" src="https://player.vimeo.com/video/1145312894?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="hailey_pre-anything_web">
+  </iframe>
+  
+</div>
+</div>
+                        </div></div><div class="embla__slide brand-reviews__slide" ><figure
+                          class="relative m-0 flex h-107 flex-col items-center justify-center gap-4 border-2 border-off-black px-4 text-center tb:h-127"
+                          style="background-color: #f1c5a6;"
+                        ><span
+                              class="h6 absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap border-2 border-off-black px-2 py-0.5 text-fg-primary"
+                              style="background-color: #f1c5a6;"
+                            >Pre-Anything</span><div class="flex gap-1 text-primary" aria-label="5 star review"><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span></div><blockquote class="h4 tb:h3 m-0 text-fg-primary">Nice being able to take this before pretty much anything, not just workouts, way more flexible.</blockquote><figcaption class="h6 text-fg-primary">Alex R.</figcaption></figure></div><div class="embla__slide brand-reviews__slide" ><div class="relative h-107 border-2 border-off-black bg-accent1-base tb:h-127"><div class="brand-reviews__video relative size-full overflow-hidden"><div style="padding:180% 0 0 0;position:relative;"><iframe loading="lazy" src="https://player.vimeo.com/video/1145312865?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Caitlyn_VsAlternative_web_04">
+  </iframe>
+  
+</div>
+</div>
+                        </div></div><div class="embla__slide brand-reviews__slide" ><figure
+                          class="relative m-0 flex h-107 flex-col items-center justify-center gap-4 border-2 border-off-black px-4 text-center tb:h-127"
+                          style="background-color: #f1c5a6;"
+                        ><span
+                              class="h6 absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap border-2 border-off-black px-2 py-0.5 text-fg-primary"
+                              style="background-color: #f1c5a6;"
+                            >Vs Alternative</span><div class="flex gap-1 text-primary" aria-label="5 star review"><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span></div><blockquote class="h4 tb:h3 m-0 text-fg-primary">I don’t miss powders or energy drinks at all, this is just way simpler and works better for me.</blockquote><figcaption class="h6 text-fg-primary">Chris L.</figcaption></figure></div></div>
+            </div>
+
+            <div class="embla__controls pointer-events-none absolute inset-x-0 top-1/2 z-20 flex -translate-y-1/2 justify-between">
+              <button
+                aria-label="Previous slide"
+                class="embla__button embla__button--prev pointer-events-auto flex size-11 items-center justify-center border-2 border-off-black bg-off-white text-fg-primary shadow-[3px_3px_0_0_var(--color-off-black)]"
+                type="button"
+              >
+                <span class="block w-6 rotate-180 *:h-auto *:w-full" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" fill="none" class="icon icon-arrow" viewBox="0 0 14 10"><path fill="currentColor" fill-rule="evenodd" d="M8.537.808a.5.5 0 0 1 .817-.162l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 1 1-.708-.708L11.793 5.5H1a.5.5 0 0 1 0-1h10.793L8.646 1.354a.5.5 0 0 1-.109-.546" clip-rule="evenodd"/></svg>
+</span>
+              </button>
+              <button
+                aria-label="Next slide"
+                class="embla__button embla__button--next pointer-events-auto flex size-11 items-center justify-center border-2 border-off-black bg-off-white text-fg-primary shadow-[3px_3px_0_0_var(--color-off-black)]"
+                type="button"
+              >
+                <span class="block w-6 *:h-auto *:w-full" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" fill="none" class="icon icon-arrow" viewBox="0 0 14 10"><path fill="currentColor" fill-rule="evenodd" d="M8.537.808a.5.5 0 0 1 .817-.162l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 1 1-.708-.708L11.793 5.5H1a.5.5 0 0 1 0-1h10.793L8.646 1.354a.5.5 0 0 1-.109-.546" clip-rule="evenodd"/></svg>
+</span>
+              </button>
+            </div>
+          </div>
+        </embla-carousel><p class="body-6 m-0 mt-4 text-center text-fg-tertiary">Testimonials featured in videos or other promotional materials may include individuals who have received compensation, free product, or other incentives.</p></div></div>
+</div>
+
+
+</section><section id="shopify-section-template--28448972702067__juced_not_like_others_eUtRYB" class="shopify-section juced-not-like-others"><div class="overflow-x-clip bg-linear-to-b from-off-black from-50% to-primary px-4 pb-14 pt-20 tb:px-18 tb:pb-18 tb:pt-30">
+  <div class="mx-auto flex w-full max-w-page flex-col items-center gap-10 tb:gap-12">
+    <div class="relative"><span
+          class="pointer-events-none absolute -top-9 left-1 -rotate-8 font-tertiary text-[4rem] leading-none text-accent2-base tb:-top-14 tb:left-10 tb:text-[6rem]"
+          aria-hidden="true"
+        >Not</span><h2 class="max-w-85 text-center text-[2.625rem] leading-display font-black uppercase tracking-[-0.02em] text-primary tb:max-w-155 tb:text-[4.5rem]">
+          Like Other Pre-Workouts
+        </h2></div>
+
+    <div class="flex w-full flex-col gap-10 tb:flex-row tb:items-stretch tb:justify-center tb:gap-12"><div class="flex flex-col-reverse items-center gap-6 tb:w-109 tb:flex-col tb:justify-between">
+          <div
+            class="flex flex-col gap-1 text-center"
+            style="--bold-color: var(--color-accent2-base);"
+          ><h3 class="richtext-h richtext-accent text-[1.75rem] font-semibold leading-[1.1] tracking-[-0.03em] text-fg-primary-inverse tb:text-[2.75rem]">
+                <p>This <strong>doesn't</strong> contain beta-alanine.</p>
+              </h3><p class="text-[0.875rem] font-semibold leading-dense tracking-[-0.03em] text-fg-primary-inverse tb:text-[1.125rem]">
+                (Which is known to cause itching and tingles.)
+              </p></div><div class="flex w-full items-end justify-center">
+              <img src="/assets/product-263ea28fd.webp" alt="" srcset="/assets/product-ceb803c3b.webp 360w, /assets/product-56bed6f57.webp 540w, /assets/product-baeda9d93.webp 800w, /assets/product-263ea28fd.webp 1100w" width="1100" height="1070" loading="lazy" sizes="(min-width: 992px) 500px, 100vw" class="w-full max-w-125 object-contain tb:max-h-94.5">
+            </div></div><div class="flex flex-col-reverse items-center gap-6 tb:w-109 tb:flex-col tb:justify-between">
+          <div
+            class="flex flex-col gap-1 text-center"
+            style="--bold-color: var(--color-accent2-base);"
+          ><h3 class="richtext-h richtext-accent text-[1.75rem] font-semibold leading-[1.1] tracking-[-0.03em] text-fg-primary-inverse tb:text-[2.75rem]">
+                <p>This does.</p>
+              </h3><p class="text-[0.875rem] font-semibold leading-dense tracking-[-0.03em] text-fg-primary-inverse tb:text-[1.125rem]">
+                (Welcome to Tingletown. Population: You.)
+              </p></div><div class="flex w-full items-end justify-center">
+              <img src="/assets/compare-them-838372dd6.webp" alt="" srcset="/assets/compare-them-1be40836b.webp 360w, /assets/compare-them-d35e8a592.webp 540w, /assets/compare-them-d6cbb200c.webp 800w, /assets/compare-them-838372dd6.webp 1100w" width="1100" height="954" loading="lazy" sizes="(min-width: 992px) 500px, 100vw" class="w-full max-w-125 object-contain tb:max-h-94.5">
+            </div></div></div>
+
+    <div class="flex w-full flex-col gap-8 tb:flex-row tb:items-center tb:gap-12">
+      <div class="flex min-w-px flex-1 flex-col gap-3 text-center tb:text-left"><h3 class="text-[2rem] leading-display font-black uppercase tracking-[-0.02em] text-primary tb:text-[2.625rem]">
+            Cute Energy. Mean Results.
+          </h3><p class="body-5 text-justify text-fg-primary-inverse">
+            75mg of peachy-clean caffeine that’s good for work, play, and whatever else you do with your free time. Unlike most pre-workouts, it doesn&#39;t cause beta-alanine tingles that make you feel like something&#39;s crawling under your skin or niacin flushing that looks like you just walked through poison ivy forest. What you may feel, though, is the perfect peachy pick-me-up. The kind that lets you absolutely rip through heated Pilates or 12-3-30. The kind you pop at work, right when you usually Postmates a $10 matcha. (Be honest: if you tallied what you’ve spent on matcha, you’d be looking at the down payment for, like, sixteen houses.) Or maybe you take it at the pregame, skip the espresso martini at the bar, and magically have $25 (plus tip, always tip your bartender) more in your pocket for, I don’t know, literally anything else. That’s the point. Jüced isn’t just pre-workout. It isn’t just pre-afternoon slump. It isn’t just pre-bar. It’s pre-anything. Which is basically just another way of saying: it’s energy for life.
+          </p></div>
+
+      <div class="w-full bg-white p-3 tb:w-103.5 tb:shrink-0">
+        <div class="relative flex flex-col gap-3 border-2 border-dashed border-off-black p-4"><p class="text-center text-[2rem] leading-display font-black uppercase tracking-[-0.02em] text-fg-primary">
+              Buy Now to Get 55% Off Your Order
+            </p><div class="flex flex-col gap-2.5 pl-18"><p class="text-justify text-[0.375rem] font-normal leading-normal text-fg-primary">
+                Bet you thought this super fine print was terms and conditions. No, it&#39;s just more digital real estate to tell you how great Jüced is. And not even just compared to other pre-workouts, because let&#39;s be real, the barbell&#39;s in hell. Jüced is 95mg of natural caffeine that supports performance and endurance and a bunch of other gym-adjacent nouns without making you freak tf out. It&#39;s a steady lift, not a shock to the system. A little pick-me-up, not a pick-you-up by your ponytail, swing you around like a helicopter a few times, and then hurl you into another time zone situation. You get it, now go get it.
+              </p><a
+                href="#offers"
+                class="flex w-full items-center justify-center border-2 border-off-black bg-accent2-base px-4 py-3 text-[1.125rem] font-semibold leading-dense tracking-[-0.03em] text-fg-primary transition-colors duration-200 hover:bg-accent2-weak focus-visible:outline-2 focus-visible:outline-off-black"
+              >
+                Try Jüced Now
+              </a></div><div
+              class="pointer-events-none absolute -bottom-4 -left-6 w-34 tb:-left-10 tb:w-37"
+              aria-hidden="true"
+            >
+              <img src="/assets/gummy2_stars-nooutline-26d09b30f.webp" alt="" srcset="/assets/gummy2_stars-nooutline-26d09b30f.webp 300w" width="300" height="318" loading="lazy" class="w-full object-contain">
+            </div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</section><section id="shopify-section-template--28448972702067__juced_us_vs_them_ghLGVc" class="shopify-section juced-us-vs-them"><div class="bg-off-white px-4 py-14 tb:p-18">
+  <div class="mx-auto flex w-full max-w-page flex-col items-center gap-4 tb:gap-12">
+    <div class="flex flex-col items-center gap-4 text-center"><h2 class="text-[2.625rem] leading-display font-black uppercase tracking-[-0.02em] text-fg-primary tb:text-[3.5rem]">
+          Us vs. Them
+        </h2><p class="body-2 text-primary-strongest">It&#39;s not a competition, but if it was, we&#39;d win.</p></div><div class="w-full pt-4 tb:w-225 tb:pt-5">
+        <table class="w-full border-collapse">
+          <caption class="sr-only">
+            Comparison of Jüced and Pre-Workout Powders
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col" class="w-[29%] border-2 border-off-black bg-accent2-base tb:w-[37%]">
+                <span class="sr-only">Feature</span>
+              </th>
+              <th scope="col" class="relative border-2 border-off-black bg-primary px-2 py-4 tb:px-3 tb:py-9">
+                <div
+                  class="absolute -inset-x-0.5 bottom-full h-3.75 border-2 border-b-0 border-off-black bg-primary tb:h-5"
+                  aria-hidden="true"
+                ></div>
+                <div class="relative mx-auto w-23 [&_svg]:h-auto [&_svg]:w-full tb:w-50"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 821 310">
+  <title>Jüced Logo</title>
+  <path fill="#fff" d="M282.243 73.1854C285.97 73.1854 288.808 76.5367 288.204 80.2201L278.184 162.086C270.004 234.894 237.574 256.783 188.258 256.783 121.013 256.783 103.342 223.813 113.633 163.927L123.729 81.1561C124.288 76.5971 128.151 73.1703 132.738 73.1703H173.68C177.422 73.1703 180.259 76.5367 179.641 80.2201L166.904 169.437C164.263 193.712 168.202 203.781 190.083 203.781 214.35 203.781 220.597 190.27 223.495 168.109L234.254 81.1863C234.798 76.6122 238.661 73.1703 243.263 73.1703H282.243V73.1854ZM139.167 28.3503C139.167 12.6957 152.583 0 169.122 0 185.662 0 199.078 12.6957 199.078 28.3503 199.078 44.0048 185.662 56.7006 169.122 56.7006 152.583 56.7006 139.167 44.0048 139.167 28.3503ZM221.819 28.3503C221.819 12.6957 235.235 0 251.775 0 268.314 0 281.73 12.6957 281.73 28.3503 281.73 44.0048 268.314 56.7006 251.775 56.7006 235.235 56.7006 221.819 44.0048 221.819 28.3503ZM430.631 73.8798C434.902 74.846 437.724 78.8917 437.12 83.2242L431.31 124.104C430.933 126.686 428.292 128.225 425.862 127.259 417.034 123.772 405.263 121.085 390.354 121.085 358.376 121.085 341.595 135.653 338.109 160.999 334.306 186.979 345.715 206.302 378.96 205.985 392.345 205.985 407.029 202.905 419.056 198.361 420.822 197.697 422.648 199.116 422.391 200.973L416.657 243C416.234 246.08 414.137 248.661 411.224 249.733 399.665 254.005 384.71 256.662 369.77 256.662 312.772 256.662 282.062 221.187 290.301 160.048 299.794 97.022 344.764 70.0907 396.058 70.0907 407.406 70.0907 419.388 71.3588 430.631 73.8798ZM541.488 70.7851C596.584 70.7851 620.337 101.823 613.365 148.394 612.596 153.481 611.389 158.976 610.181 164.728 609.276 168.954 604.945 168.954 594.502 168.954L489.968 168.366C488.006 168.366 486.346 169.951 486.391 171.928 487.04 195.206 500.245 209.849 530.079 209.849 553.123 209.849 578.083 204.339 597.535 195.372 599.316 194.557 601.293 195.976 601.021 197.909L595.634 237.234C595.241 240.102 593.415 242.608 590.744 243.725 572.786 251.303 549.048 256.723 525.326 256.723 465.476 256.723 432.547 221.247 441.738 157.904 449.977 99.3015 492.715 70.8002 541.473 70.8002L541.488 70.7851ZM567.052 145.601C568.335 145.571 569.391 144.499 569.391 143.231 569.24 124.014 555.583 116.088 535.784 116.088 511.487 116.088 497.136 125.75 490.587 144.529 490.043 146.084 491.296 147.699 492.926 147.654L567.052 145.601ZM95.6459 74.9814C101.124 74.9817 105.334 79.8131 104.594 85.2324L95.8568 149.104 88.7191 213.548C81.1586 280.423 56.2583 295.248 17.9428 308.502 12.4497 310.404 6.54903 306.841 5.68886 301.09L.0755762 263.817C-.301497 261.342 1.10158 258.927 3.45546 258.066 25.4277 250.05 31.223 242.155 33.9242 222.107L47.6771 127.353H22.7875C17.868 127.353 14.7434 123.73 15.4525 118.869L20.81 82.0947C21.3534 78.3662 25.2171 75.0146 28.9896 75.0146H59.8129C60.0591 74.9944 60.3078 74.9815 60.559 74.9814H95.6459ZM813.998 9.93317C818.268 9.93317 821.528 13.7072 820.924 17.934L805.849 123.198 792.222 247.076C791.829 250.624 788.826 253.311 785.265 253.311H752.02C748.685 253.311 745.938 250.699 745.787 247.363L744.776 226.063C744.595 221.383 742.09 223.028 740.717 224.583 724.268 242.895 704.469 257.13 680.58 257.13 642.732 257.13 618.24 223.089 627.143 159.459 636.047 97.0975 673.578 70.0605 720.646 70.0605 734.665 70.0605 748.111 73.276 758.735 78.318 759.414 78.6351 760.169 78.2124 760.259 77.4727L767.035 16.1829C767.427 12.6354 770.431 9.94826 773.992 9.94826H814.028L813.998 9.93317ZM752.472 143.276C754.585 124.919 754.238 122.957 746.813 121.613 739.449 120.285 731.813 119.757 724.705 120.028 691.506 120.406 676.52 136.619 673.593 160.395 670.333 187.553 680.112 205.29 707.457 205.29 717.115 205.29 726.033 202.407 733.82 198.15 741.864 193.757 747.553 182.345 749.786 165.226L752.488 143.291 752.472 143.276Z"/>
+</svg>
+</div>
+              </th>
+              <th
+                scope="col"
+                class="border-2 border-off-black bg-accent2-base p-3.5 text-center text-[0.875rem] font-semibold leading-[0.9] tracking-[-0.03em] text-fg-primary tb:p-8 tb:text-[2.25rem]"
+              >
+                Pre-Workout Powders
+              </th>
+            </tr>
+          </thead>
+          <tbody><tr class="bg-white" >
+                <th
+                  scope="row"
+                  class="border-2 border-off-black px-2 py-2.5 text-left text-[0.75rem] font-semibold leading-heading tracking-[-0.03em] text-fg-primary tb:px-8 tb:py-5 tb:text-[1.625rem]"
+                >
+                  Taste
+                </th>
+                <td class="relative border-2 border-off-black bg-primary px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">Eletric 🍑 Peach
+                </td>
+                <td class="border-2 border-off-black px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">
+                  Chemical-like Flavor
+                </td>
+              </tr><tr class="bg-white" >
+                <th
+                  scope="row"
+                  class="border-2 border-off-black px-2 py-2.5 text-left text-[0.75rem] font-semibold leading-heading tracking-[-0.03em] text-fg-primary tb:px-8 tb:py-5 tb:text-[1.625rem]"
+                >
+                  Convenience
+                </th>
+                <td class="relative border-2 border-off-black bg-primary px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">On-the-go Snack Packs
+                </td>
+                <td class="border-2 border-off-black px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">
+                  Messy, Spill-prone Powders
+                </td>
+              </tr><tr class="bg-white" >
+                <th
+                  scope="row"
+                  class="border-2 border-off-black px-2 py-2.5 text-left text-[0.75rem] font-semibold leading-heading tracking-[-0.03em] text-fg-primary tb:px-8 tb:py-5 tb:text-[1.625rem]"
+                >
+                  Beta-Alanine Tingles
+                </th>
+                <td class="relative border-2 border-off-black bg-primary px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">No
+                </td>
+                <td class="border-2 border-off-black px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">
+                  Yes
+                </td>
+              </tr><tr class="bg-white" >
+                <th
+                  scope="row"
+                  class="border-2 border-off-black px-2 py-2.5 text-left text-[0.75rem] font-semibold leading-heading tracking-[-0.03em] text-fg-primary tb:px-8 tb:py-5 tb:text-[1.625rem]"
+                >
+                  Niacin Flushing
+                </th>
+                <td class="relative border-2 border-off-black bg-primary px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">No
+                </td>
+                <td class="border-2 border-off-black px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">
+                  Yes
+                </td>
+              </tr><tr class="bg-white" >
+                <th
+                  scope="row"
+                  class="border-2 border-off-black px-2 py-2.5 text-left text-[0.75rem] font-semibold leading-heading tracking-[-0.03em] text-fg-primary tb:px-8 tb:py-5 tb:text-[1.625rem]"
+                >
+                  Caffeine
+                </th>
+                <td class="relative border-2 border-off-black bg-primary px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">75mg
+                </td>
+                <td class="border-2 border-off-black px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">
+                  150-300mg
+                </td>
+              </tr><tr class="bg-white" >
+                <th
+                  scope="row"
+                  class="border-2 border-off-black px-2 py-2.5 text-left text-[0.75rem] font-semibold leading-heading tracking-[-0.03em] text-fg-primary tb:px-8 tb:py-5 tb:text-[1.625rem]"
+                >
+                  Ingredients
+                </th>
+                <td class="relative border-2 border-off-black bg-primary px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">7 Main Ingredients
+                </td>
+                <td class="border-2 border-off-black px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">
+                  10-20+ Ingredients
+                </td>
+              </tr><tr class="bg-white" >
+                <th
+                  scope="row"
+                  class="border-2 border-off-black px-2 py-2.5 text-left text-[0.75rem] font-semibold leading-heading tracking-[-0.03em] text-fg-primary tb:px-8 tb:py-5 tb:text-[1.625rem]"
+                >
+                  Fiber
+                </th>
+                <td class="relative border-2 border-off-black bg-primary px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]"><div
+                      class="absolute -inset-x-0.5 top-full h-2 border-2 border-t-0 border-off-black bg-primary tb:h-2.5"
+                      aria-hidden="true"
+                    ></div>7g
+                </td>
+                <td class="border-2 border-off-black px-2 py-2 text-center text-[0.8125rem] font-semibold leading-none text-fg-primary tb:px-4 tb:text-[1.9375rem]">
+                  Little to No Fiber
+                </td>
+              </tr></tbody>
+        </table>
+      </div></div>
+</div>
+
+
+</section><section id="shopify-section-template--28448972702067__juced_about_us_LqdfCf" class="shopify-section juced-about-us"><div class="bg-accent1-base px-4 py-18 tb:px-18">
+  <div class="mx-auto flex w-full max-w-page flex-col gap-8 tb:flex-row tb:items-center tb:gap-16">
+    <div class="w-full border-2 border-off-black tb:w-155.5 tb:shrink-0"><img src="/assets/image-slant_1-678df97a0.webp" alt="" srcset="/assets/image-slant_1-f5e47e5a2.webp 360w, /assets/image-slant_1-1783034ca.webp 540w, /assets/image-slant_1-906fa23df.webp 780w, /assets/image-slant_1-ec532e7fe.webp 1100w, /assets/image-slant_1-678df97a0.webp 1400w" width="1400" height="1156" loading="lazy" sizes="(min-width: 992px) 622px, 100vw" class="aspect-350/348 w-full object-cover tb:aspect-614/507">
+</div>
+
+    <div class="flex flex-col gap-6 tb:min-w-px tb:flex-1"><h2 class="text-center text-[3.5rem] leading-display font-black uppercase tracking-[-0.02em] text-fg-primary tb:text-left tb:text-[4.5rem]">
+          About Us
+        </h2><p class="h4 text-fg-primary tb:h3">
+          Hey, we’re Jüced. And we’re the antithesis of typical pre-workouts. The ones packed with 400mg of caffeine that cause niacin flushing, beta-alanine tingles, and make you freak tf out. You know the type.
+        </p><a
+          href="https://juced.co/pages/about"
+          class="flex w-full items-center justify-center border-2 border-off-black bg-accent2-base px-8 py-5 text-[1.125rem] font-semibold leading-dense tracking-[-0.03em] text-fg-primary transition-colors duration-200 hover:bg-accent2-weak focus-visible:outline-2 focus-visible:outline-off-black tb:w-fit"
+        >
+          Learn More
+        </a></div>
+  </div>
+</div>
+
+
+</section><section id="shopify-section-template--28448972702067__juced_faqs_GNhRkz" class="shopify-section juced-faqs"><div class="bg-off-white px-4 py-12 tb:p-18">
+  <div class="mx-auto flex w-full max-w-page flex-col gap-10 tb:flex-row tb:items-start tb:gap-4">
+    <div class="flex flex-col items-center gap-6 text-center tb:w-1/2 tb:items-start tb:text-left"><h2 class="text-[2.625rem] leading-display font-black uppercase tracking-[-0.01em] text-fg-primary tb:max-w-115">
+          Got Questions? We&#39;ve Got Answers
+        </h2><a
+          href="#offers"
+          class="flex w-full items-center justify-center border-2 border-off-black bg-primary px-8 py-5 text-[1.125rem] font-semibold leading-dense tracking-[-0.02em] text-fg-primary transition-colors duration-200 hover:bg-primary-strong focus-visible:outline-2 focus-visible:outline-off-black tb:w-fit"
+        >
+          Try Jüced Now →
+        </a></div><div class="flex flex-col border-t border-off-black tb:w-1/2 tb:border-t-0"><accordion-item class="block border-b border-off-black" >
+            <h3>
+              <button
+                type="button"
+                data-trigger
+                aria-expanded="false"
+                aria-controls="faq-panel-template--28448972702067__juced_faqs_GNhRkz-1"
+                class="group flex w-full cursor-pointer items-center justify-between gap-4 py-3 text-left"
+              >
+                <span class="body-1 font-semibold leading-dense tracking-[-0.02em] text-fg-primary">
+                  What does Jüced taste like?
+                </span>
+                <svg
+                  class="size-6 shrink-0 transition-transform duration-300 group-aria-expanded:rotate-180"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M12 14.8154L19.5327 7.2827C19.7314 7.08398 19.9654 6.98719 20.2346 6.99232C20.5038 6.99746 20.7378 7.09938 20.9365 7.2981C21.1352 7.4968 21.2346 7.73077 21.2346 8C21.2346 8.26923 21.1352 8.5032 20.9365 8.7019L13.2808 16.373C13.1 16.5538 12.8974 16.6878 12.6731 16.775C12.4487 16.8622 12.2244 16.9057 12 16.9057C11.7757 16.9057 11.5513 16.8622 11.3269 16.775C11.1026 16.6878 10.9 16.5538 10.7193 16.373L3.0481 8.7019C2.84938 8.5032 2.75258 8.26667 2.7577 7.9923C2.76283 7.71795 2.86476 7.48142 3.06347 7.2827C3.26219 7.08398 3.49616 6.98462 3.76537 6.98462C4.03461 6.98462 4.26858 7.08398 4.4673 7.2827L12 14.8154Z" fill="var(--color-fg-primary)"/>
+                </svg>
+              </button>
+            </h3>
+            <div
+              id="faq-panel-template--28448972702067__juced_faqs_GNhRkz-1"
+              data-panel
+              class="grid grid-rows-[0fr]"
+            >
+              <div class="overflow-hidden"><div class="body-3 flex flex-col gap-3 pb-4 text-fg-secondary [&_a]:underline">
+                    <p>Jüced hits with an electric peach flavor and a slight bitter edge from real caffeine. Unlike most pre-workouts that bury the taste under aggressive sour blends or artificial sweetness, Jüced keeps things simple.</p>
+                  </div></div>
+            </div>
+          </accordion-item><accordion-item class="block border-b border-off-black" >
+            <h3>
+              <button
+                type="button"
+                data-trigger
+                aria-expanded="false"
+                aria-controls="faq-panel-template--28448972702067__juced_faqs_GNhRkz-2"
+                class="group flex w-full cursor-pointer items-center justify-between gap-4 py-3 text-left"
+              >
+                <span class="body-1 font-semibold leading-dense tracking-[-0.02em] text-fg-primary">
+                  When will my gummies arrive?
+                </span>
+                <svg
+                  class="size-6 shrink-0 transition-transform duration-300 group-aria-expanded:rotate-180"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M12 14.8154L19.5327 7.2827C19.7314 7.08398 19.9654 6.98719 20.2346 6.99232C20.5038 6.99746 20.7378 7.09938 20.9365 7.2981C21.1352 7.4968 21.2346 7.73077 21.2346 8C21.2346 8.26923 21.1352 8.5032 20.9365 8.7019L13.2808 16.373C13.1 16.5538 12.8974 16.6878 12.6731 16.775C12.4487 16.8622 12.2244 16.9057 12 16.9057C11.7757 16.9057 11.5513 16.8622 11.3269 16.775C11.1026 16.6878 10.9 16.5538 10.7193 16.373L3.0481 8.7019C2.84938 8.5032 2.75258 8.26667 2.7577 7.9923C2.76283 7.71795 2.86476 7.48142 3.06347 7.2827C3.26219 7.08398 3.49616 6.98462 3.76537 6.98462C4.03461 6.98462 4.26858 7.08398 4.4673 7.2827L12 14.8154Z" fill="var(--color-fg-primary)"/>
+                </svg>
+              </button>
+            </h3>
+            <div
+              id="faq-panel-template--28448972702067__juced_faqs_GNhRkz-2"
+              data-panel
+              class="grid grid-rows-[0fr]"
+            >
+              <div class="overflow-hidden"><div class="body-3 flex flex-col gap-3 pb-4 text-fg-secondary [&_a]:underline">
+                    <p>We're fast! Orders typically ship within 24 hours and on average arrive 2-5 days later. You could be enjoying these delicious gummies and all their benefits just a few days from now.</p>
+                  </div></div>
+            </div>
+          </accordion-item><accordion-item class="block border-b border-off-black" >
+            <h3>
+              <button
+                type="button"
+                data-trigger
+                aria-expanded="false"
+                aria-controls="faq-panel-template--28448972702067__juced_faqs_GNhRkz-3"
+                class="group flex w-full cursor-pointer items-center justify-between gap-4 py-3 text-left"
+              >
+                <span class="body-1 font-semibold leading-dense tracking-[-0.02em] text-fg-primary">
+                  What&#39;s inside each order? What am I getting?
+                </span>
+                <svg
+                  class="size-6 shrink-0 transition-transform duration-300 group-aria-expanded:rotate-180"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M12 14.8154L19.5327 7.2827C19.7314 7.08398 19.9654 6.98719 20.2346 6.99232C20.5038 6.99746 20.7378 7.09938 20.9365 7.2981C21.1352 7.4968 21.2346 7.73077 21.2346 8C21.2346 8.26923 21.1352 8.5032 20.9365 8.7019L13.2808 16.373C13.1 16.5538 12.8974 16.6878 12.6731 16.775C12.4487 16.8622 12.2244 16.9057 12 16.9057C11.7757 16.9057 11.5513 16.8622 11.3269 16.775C11.1026 16.6878 10.9 16.5538 10.7193 16.373L3.0481 8.7019C2.84938 8.5032 2.75258 8.26667 2.7577 7.9923C2.76283 7.71795 2.86476 7.48142 3.06347 7.2827C3.26219 7.08398 3.49616 6.98462 3.76537 6.98462C4.03461 6.98462 4.26858 7.08398 4.4673 7.2827L12 14.8154Z" fill="var(--color-fg-primary)"/>
+                </svg>
+              </button>
+            </h3>
+            <div
+              id="faq-panel-template--28448972702067__juced_faqs_GNhRkz-3"
+              data-panel
+              class="grid grid-rows-[0fr]"
+            >
+              <div class="overflow-hidden"><div class="body-3 flex flex-col gap-3 pb-4 text-fg-secondary [&_a]:underline">
+                    <p>All of our gummies ship in a larger 8.5" x 10" pouch that contains 28 daily sachets. Sachet is a fancy word for our snack pack. Our snack packs each contain a small handful of gummies for you to enjoy daily. So if you're ordering for yourself, you'll get 28 daily snack packs inside a larger pouch. We recommend ordering on subscription. You get better pricing, and we'll make sure you're always stocked up on your healthiest habit.</p>
+                  </div></div>
+            </div>
+          </accordion-item><accordion-item class="block border-b border-off-black" >
+            <h3>
+              <button
+                type="button"
+                data-trigger
+                aria-expanded="false"
+                aria-controls="faq-panel-template--28448972702067__juced_faqs_GNhRkz-4"
+                class="group flex w-full cursor-pointer items-center justify-between gap-4 py-3 text-left"
+              >
+                <span class="body-1 font-semibold leading-dense tracking-[-0.02em] text-fg-primary">
+                  When will I feel something?
+                </span>
+                <svg
+                  class="size-6 shrink-0 transition-transform duration-300 group-aria-expanded:rotate-180"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M12 14.8154L19.5327 7.2827C19.7314 7.08398 19.9654 6.98719 20.2346 6.99232C20.5038 6.99746 20.7378 7.09938 20.9365 7.2981C21.1352 7.4968 21.2346 7.73077 21.2346 8C21.2346 8.26923 21.1352 8.5032 20.9365 8.7019L13.2808 16.373C13.1 16.5538 12.8974 16.6878 12.6731 16.775C12.4487 16.8622 12.2244 16.9057 12 16.9057C11.7757 16.9057 11.5513 16.8622 11.3269 16.775C11.1026 16.6878 10.9 16.5538 10.7193 16.373L3.0481 8.7019C2.84938 8.5032 2.75258 8.26667 2.7577 7.9923C2.76283 7.71795 2.86476 7.48142 3.06347 7.2827C3.26219 7.08398 3.49616 6.98462 3.76537 6.98462C4.03461 6.98462 4.26858 7.08398 4.4673 7.2827L12 14.8154Z" fill="var(--color-fg-primary)"/>
+                </svg>
+              </button>
+            </h3>
+            <div
+              id="faq-panel-template--28448972702067__juced_faqs_GNhRkz-4"
+              data-panel
+              class="grid grid-rows-[0fr]"
+            >
+              <div class="overflow-hidden"><div class="body-3 flex flex-col gap-3 pb-4 text-fg-secondary [&_a]:underline">
+                    <p>You’ll feel the lift from the caffeine pretty quickly, so we recommend taking 30-60 minutes before working out. However, consistent use builds long-term performance benefits.</p>
+                  </div></div>
+            </div>
+          </accordion-item><accordion-item class="block border-b border-off-black" >
+            <h3>
+              <button
+                type="button"
+                data-trigger
+                aria-expanded="false"
+                aria-controls="faq-panel-template--28448972702067__juced_faqs_GNhRkz-5"
+                class="group flex w-full cursor-pointer items-center justify-between gap-4 py-3 text-left"
+              >
+                <span class="body-1 font-semibold leading-dense tracking-[-0.02em] text-fg-primary">
+                  How do you handle returns?
+                </span>
+                <svg
+                  class="size-6 shrink-0 transition-transform duration-300 group-aria-expanded:rotate-180"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M12 14.8154L19.5327 7.2827C19.7314 7.08398 19.9654 6.98719 20.2346 6.99232C20.5038 6.99746 20.7378 7.09938 20.9365 7.2981C21.1352 7.4968 21.2346 7.73077 21.2346 8C21.2346 8.26923 21.1352 8.5032 20.9365 8.7019L13.2808 16.373C13.1 16.5538 12.8974 16.6878 12.6731 16.775C12.4487 16.8622 12.2244 16.9057 12 16.9057C11.7757 16.9057 11.5513 16.8622 11.3269 16.775C11.1026 16.6878 10.9 16.5538 10.7193 16.373L3.0481 8.7019C2.84938 8.5032 2.75258 8.26667 2.7577 7.9923C2.76283 7.71795 2.86476 7.48142 3.06347 7.2827C3.26219 7.08398 3.49616 6.98462 3.76537 6.98462C4.03461 6.98462 4.26858 7.08398 4.4673 7.2827L12 14.8154Z" fill="var(--color-fg-primary)"/>
+                </svg>
+              </button>
+            </h3>
+            <div
+              id="faq-panel-template--28448972702067__juced_faqs_GNhRkz-5"
+              data-panel
+              class="grid grid-rows-[0fr]"
+            >
+              <div class="overflow-hidden"><div class="body-3 flex flex-col gap-3 pb-4 text-fg-secondary [&_a]:underline">
+                    <p>We want you to have the best experience with Grüns. We offer a simple 30-day guarantee on your first order. Refunds include the full value of your order. We accept all refund requests within our policy with no hassle. If you have any questions about our guarantee, our Grüns Care Bears are always happy to help at <a href="mailto:care@juced.co" target="_blank"><span style="text-decoration:underline">care@juced.co</span></a>. This policy applies only to your initial purchase.</p>
+                  </div></div>
+            </div>
+          </accordion-item></div></div>
+</div>
+
+
+</section><section id="shopify-section-template--28448972702067__juced_cta_banner_CL9CnY" class="shopify-section juced-cta-banner">
+
+<div class="bg-linear-to-b from-secondary-base to-accent2-base px-4 py-8 tb:px-18">
+  <div class="mx-auto flex w-full max-w-page flex-col items-center gap-6 tb:gap-4"><h2 class="cta-banner-heading text-center text-[2rem] font-black uppercase tracking-[-0.01em] text-fg-primary tb:max-w-197 tb:text-[3.5rem]">
+        So, Whaddya Say? Wanna Get Jüced?
+      </h2><a
+        href="#offers"
+        class="flex w-full items-center justify-center border-2 border-off-black bg-white px-8 py-5 text-[1.125rem] font-semibold leading-dense tracking-[-0.02em] text-fg-primary transition-colors duration-200 hover:bg-off-white focus-visible:outline-2 focus-visible:outline-off-black tb:w-fit"
+      >
+        Try Jüced Now
+      </a></div>
+</div>
+
+
+</section>
+    </main>
+    <!-- BEGIN sections: footer-group -->
+<div id="shopify-section-sections--28425147842931__footer" class="shopify-section shopify-section-group-footer-group"><footer aria-label="Site footer" class="overflow-hidden bg-off-black text-fg-primary-inverse">
+  <div class="mx-auto max-w-page px-4 pt-8 tb:px-18 tb:pt-15">
+    <div class="tb:grid tb:min-h-64 tb:grid-cols-12">
+      <div class="tb:col-span-5">
+        
+
+<div class="mb-8 tb:mb-0">
+  <p class="mb-4 text-[1.125rem] font-semibold leading-[1.2] tracking-[-0.02em] text-accent2-base tb:text-[1.5rem]">Don't miss out on any Jücey updates.</p>
+  <newsletter-form class="block tb:h-61.75">
+    <div class="postscript-shell flex w-full flex-col transition-opacity tb:max-w-104.5">
+      <form
+       
+        method="post"
+        id="ps__subscribe-form"
+       
+       
+        class="w-full"
+      >
+        <input name="shop_id" type="hidden" value="">
+        <input name="keyword_id" type="hidden" value="">
+        <div class="flex h-12 w-full items-stretch">
+          <label for="ps__phone-subscribe" class="sr-only">Phone number</label>
+          <input
+            id="ps__phone-subscribe"
+            name="phone"
+            class="min-w-0 flex-1 border-2 border-off-black bg-white px-4 py-3 text-[1rem] font-medium leading-[1.4] tracking-[0.01em] text-fg-primary placeholder:text-fg-tertiary"
+            type="tel"
+            placeholder="Phone Number"
+            autocomplete="tel"
+            required
+            aria-required="true"
+          >
+          <button
+            type="submit"
+            aria-label="Subscribe to SMS updates"
+            class="flex size-12 shrink-0 cursor-pointer items-center justify-center border-2 border-off-black bg-accent2-base text-off-black transition-colors hover:bg-accent2-weak"
+          >
+            <svg aria-hidden="true" class="size-6" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M14 7l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <div id="ps__sent-message" class="mt-4 hidden items-center gap-2 bg-white p-3 text-off-black">
+        <span aria-hidden="true">✓</span>
+        <p class="text-[0.625rem] font-medium leading-[1.4] tracking-[0.01em]">Thanks for subscribing! We'll send you a message shortly.</p>
+      </div>
+      
+      <button
+        class="show-email-btn my-3 w-fit cursor-pointer text-[0.875rem] font-bold leading-none tracking-[0.01em] text-white underline"
+        type="button"
+      >
+        Email me instead.
+      </button>
+      <div class="text-[0.625rem] font-medium leading-[1.4] tracking-[0.01em] text-fg-secondary-inverse [&_a]:underline [&_p]:text-[0.625rem] [&_p]:font-medium [&_p]:leading-[1.4] [&_p]:tracking-[0.01em]"><p>*By providing your number and clicking the button, you agree to receive recurring auto-dialed marketing SMS (including cart reminders; AI content; artificial or prerecorded voices) and our Terms of Service (including arbitration). Consent is not required to purchase. Msg & data rates may apply. Msg frequency varies. Reply HELP for help; STOP to opt-out. View Privacy Policy.</p></div>
+    </div>
+
+    <div class="klaviyo-shell pointer-events-none flex h-0 w-full flex-col overflow-hidden opacity-0 transition-opacity tb:max-w-104.5">
+      <div class="klaviyo-form-TXYKrj"></div>
+      <button
+        class="show-sms-btn my-3 w-fit cursor-pointer text-[0.875rem] font-bold leading-none tracking-[0.01em] text-white underline"
+        type="button"
+      >
+        Text me instead.
+      </button>
+      <p class="text-[0.625rem] font-medium leading-[1.4] tracking-[0.01em] text-fg-secondary-inverse">By completing this form you are signing up to receive our emails and can unsubscribe at any time.</p>
+    </div>
+  </newsletter-form>
+</div>
+
+      </div>
+
+      <nav aria-label="Footer navigation" class="tb:col-span-6 tb:col-start-7">
+        <ul class="hidden tb:grid tb:grid-cols-3 tb:gap-16" role="list"><li >
+                <p class="mb-4 text-[1.125rem] font-black uppercase leading-[0.75] tracking-[-0.01em] text-accent2-base">Learn</p>
+                <ul class="flex flex-col gap-3" role="list"><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://juced.co/pages/about"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >About</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://juced.co/pages/help-center"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >FAQs</a>
+                    </li></ul>
+              </li><li >
+                <p class="mb-4 text-[1.125rem] font-black uppercase leading-[0.75] tracking-[-0.01em] text-accent2-base">Connect</p>
+                <ul class="flex flex-col gap-3" role="list"><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://juced.co/pages/referrals"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >Refer a Friend</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://473gy6qog6s.typeform.com/to/YHNVqu9n"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >Partners & Influencers</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://juced.loopreturns.com"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >Make a Return</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://job-boards.greenhouse.io/gruns"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >Careers</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="/a/account/login"
+                        
+                        
+                      >Account Login</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="mailto:care@juced.co"
+                        
+                        
+                      >care@juced.co</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://juced.co/pages/contact"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >Contact Us</a>
+                    </li></ul>
+              </li><li >
+                <p class="mb-4 text-[1.125rem] font-black uppercase leading-[0.75] tracking-[-0.01em] text-accent2-base">Shop All</p>
+                <ul class="flex flex-col gap-3" role="list"><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://gruns.co/pages/first-order"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >Grüns Adults</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://gruns.co/pages/first-order-gruns-kids-daily"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >Grüns Kids</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://nutrops.co/"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >Nütrops</a>
+                    </li><li>
+                      <a
+                        class="block text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                        href="https://immun.co/"
+                        
+                        
+                          target="_blank" rel="noopener noreferrer"
+                        
+                      >Immün</a>
+                    </li></ul>
+              </li></ul>
+
+        <footer-nav class="block tb:hidden">
+          <ul class="border-t border-fg-primary-inverse" role="list"><li class="footer-col group border-b border-fg-primary-inverse" >
+                  <button
+                    class="footer-col-toggle flex w-full cursor-pointer items-center justify-between py-4 text-left"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="footer-links-link_list_UrnYTA"
+                  >
+                    <span class="text-[1.5rem] font-black uppercase leading-[0.75] tracking-[-0.01em] text-accent2-base">Learn</span>
+                    <span class="transition-transform duration-300 group-[.is-open]:rotate-180" aria-hidden="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
+  <title>Icon - Caret</title>
+  <path d="M17.004,19.87l7.533-7.533c.199-.199.433-.296.702-.29.269.005.503.107.702.306.199.199.298.433.298.702s-.099.503-.298.702l-7.656,7.671c-.181.181-.383.315-.608.402-.224.087-.449.131-.673.131s-.449-.044-.673-.131c-.224-.087-.427-.221-.608-.402l-7.671-7.671c-.199-.199-.296-.435-.29-.71.005-.274.107-.511.306-.71s.433-.298.702-.298.503.099.702.298l7.533,7.533Z" style="fill:#fff7df;fill-opacity:.95"/>
+</svg>
+                    </span>
+                  </button>
+                  <ul
+                    id="footer-links-link_list_UrnYTA"
+                    class="footer-col-link-list flex max-h-0 flex-col gap-1 overflow-hidden pb-0 transition-[max-height,padding-bottom] duration-300 group-[.is-open]:max-h-125 group-[.is-open]:pb-4"
+                    role="list"
+                  ><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                          href="https://juced.co/pages/about"
+                          
+                          
+                            target="_blank" rel="noopener noreferrer"
+                          
+                        >About</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                          href="https://juced.co/pages/help-center"
+                          
+                          
+                            target="_blank" rel="noopener noreferrer"
+                          
+                        >FAQs</a>
+                      </li></ul>
+                </li><li class="footer-col group border-b border-fg-primary-inverse" >
+                  <button
+                    class="footer-col-toggle flex w-full cursor-pointer items-center justify-between py-4 text-left"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="footer-links-link_list_4p8wFR"
+                  >
+                    <span class="text-[1.5rem] font-black uppercase leading-[0.75] tracking-[-0.01em] text-accent2-base">Connect</span>
+                    <span class="transition-transform duration-300 group-[.is-open]:rotate-180" aria-hidden="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
+  <title>Icon - Caret</title>
+  <path d="M17.004,19.87l7.533-7.533c.199-.199.433-.296.702-.29.269.005.503.107.702.306.199.199.298.433.298.702s-.099.503-.298.702l-7.656,7.671c-.181.181-.383.315-.608.402-.224.087-.449.131-.673.131s-.449-.044-.673-.131c-.224-.087-.427-.221-.608-.402l-7.671-7.671c-.199-.199-.296-.435-.29-.71.005-.274.107-.511.306-.71s.433-.298.702-.298.503.099.702.298l7.533,7.533Z" style="fill:#fff7df;fill-opacity:.95"/>
+</svg>
+                    </span>
+                  </button>
+                  <ul
+                    id="footer-links-link_list_4p8wFR"
+                    class="footer-col-link-list flex max-h-0 flex-col gap-1 overflow-hidden pb-0 transition-[max-height,padding-bottom] duration-300 group-[.is-open]:max-h-125 group-[.is-open]:pb-4"
+                    role="list"
+                  ><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                          href="https://juced.co/pages/referrals"
+                          
+                          
+                            target="_blank" rel="noopener noreferrer"
+                          
+                        >Refer a Friend</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                          href="https://473gy6qog6s.typeform.com/to/YHNVqu9n"
+                          
+                          
+                            target="_blank" rel="noopener noreferrer"
+                          
+                        >Partners & Influencers</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                          href="https://juced.loopreturns.com"
+                          
+                          
+                            target="_blank" rel="noopener noreferrer"
+                          
+                        >Make a Return</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                          href="https://job-boards.greenhouse.io/gruns"
+                          
+                          
+                            target="_blank" rel="noopener noreferrer"
+                          
+                        >Careers</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                          href="/a/account/login"
+                          
+                          
+                        >Account Login</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                          href="mailto:care@juced.co"
+                          
+                          
+                        >care@juced.co</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white transition-colors duration-300 hover:text-accent2-base"
+                          href="https://juced.co/pages/contact"
+                          
+                          
+                            target="_blank" rel="noopener noreferrer"
+                          
+                        >Contact Us</a>
+                      </li></ul>
+                </li><li class="footer-col group border-b border-fg-primary-inverse" >
+                  <button
+                    class="footer-col-toggle flex w-full cursor-pointer items-center justify-between py-4 text-left"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="footer-links-link_list_snacks"
+                  >
+                    <span class="text-[1.5rem] font-black uppercase leading-[0.75] tracking-[-0.01em] text-accent2-base">Üsnacks</span>
+                    <span class="transition-transform duration-300 group-[.is-open]:rotate-180" aria-hidden="true">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34">
+  <title>Icon - Caret</title>
+  <path d="M17.004,19.87l7.533-7.533c.199-.199.433-.296.702-.29.269.005.503.107.702.306.199.199.298.433.298.702s-.099.503-.298.702l-7.656,7.671c-.181.181-.383.315-.608.402-.224.087-.449.131-.673.131s-.449-.044-.673-.131c-.224-.087-.427-.221-.608-.402l-7.671-7.671c-.199-.199-.296-.435-.29-.71.005-.274.107-.511.306-.71s.433-.298.702-.298.503.099.702.298l7.533,7.533Z" style="fill:#fff7df;fill-opacity:.95"/>
+</svg>
+                    </span>
+                  </button>
+                  <ul
+                    id="footer-links-link_list_snacks"
+                    class="footer-col-link-list flex max-h-0 flex-col gap-1 overflow-hidden pb-0 transition-[max-height,padding-bottom] duration-300 group-[.is-open]:max-h-125 group-[.is-open]:pb-4"
+                    role="list"
+                  ><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white hover:text-accent2-base"
+                          href="https://gruns.co/pages/usnacks"
+                        >About</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white hover:text-accent2-base"
+                          href="https://gruns.co/pages/first-order"
+                        >Grüns Adults</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white hover:text-accent2-base"
+                          href="https://gruns.co/pages/first-order-gruns-kids-daily"
+                        >Grüns Kids</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white hover:text-accent2-base"
+                          href="https://nutrops.co/"
+                        >Nütrops</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white hover:text-accent2-base"
+                          href="https://immun.co/"
+                        >Immün</a>
+                      </li><li>
+                        <a
+                          class="block py-1 text-[0.875rem] font-medium leading-[1.2] tracking-[0.01em] text-white hover:text-accent2-base"
+                          href="#offers"
+                        >Jüced</a>
+                      </li></ul>
+                </li></ul>
+        </footer-nav>
+      </nav>
+    </div>
+
+    <div class="mt-7 flex flex-col items-center gap-4 tb:mt-2 tb:flex-row tb:justify-start tb:gap-8">
+      <a href="#" class="block w-full max-w-89.5 tb:max-w-64.25" aria-label="Jüced home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 821 310">
+  <title>Jüced Logo</title>
+  <path fill="#fff" d="M282.243 73.1854C285.97 73.1854 288.808 76.5367 288.204 80.2201L278.184 162.086C270.004 234.894 237.574 256.783 188.258 256.783 121.013 256.783 103.342 223.813 113.633 163.927L123.729 81.1561C124.288 76.5971 128.151 73.1703 132.738 73.1703H173.68C177.422 73.1703 180.259 76.5367 179.641 80.2201L166.904 169.437C164.263 193.712 168.202 203.781 190.083 203.781 214.35 203.781 220.597 190.27 223.495 168.109L234.254 81.1863C234.798 76.6122 238.661 73.1703 243.263 73.1703H282.243V73.1854ZM139.167 28.3503C139.167 12.6957 152.583 0 169.122 0 185.662 0 199.078 12.6957 199.078 28.3503 199.078 44.0048 185.662 56.7006 169.122 56.7006 152.583 56.7006 139.167 44.0048 139.167 28.3503ZM221.819 28.3503C221.819 12.6957 235.235 0 251.775 0 268.314 0 281.73 12.6957 281.73 28.3503 281.73 44.0048 268.314 56.7006 251.775 56.7006 235.235 56.7006 221.819 44.0048 221.819 28.3503ZM430.631 73.8798C434.902 74.846 437.724 78.8917 437.12 83.2242L431.31 124.104C430.933 126.686 428.292 128.225 425.862 127.259 417.034 123.772 405.263 121.085 390.354 121.085 358.376 121.085 341.595 135.653 338.109 160.999 334.306 186.979 345.715 206.302 378.96 205.985 392.345 205.985 407.029 202.905 419.056 198.361 420.822 197.697 422.648 199.116 422.391 200.973L416.657 243C416.234 246.08 414.137 248.661 411.224 249.733 399.665 254.005 384.71 256.662 369.77 256.662 312.772 256.662 282.062 221.187 290.301 160.048 299.794 97.022 344.764 70.0907 396.058 70.0907 407.406 70.0907 419.388 71.3588 430.631 73.8798ZM541.488 70.7851C596.584 70.7851 620.337 101.823 613.365 148.394 612.596 153.481 611.389 158.976 610.181 164.728 609.276 168.954 604.945 168.954 594.502 168.954L489.968 168.366C488.006 168.366 486.346 169.951 486.391 171.928 487.04 195.206 500.245 209.849 530.079 209.849 553.123 209.849 578.083 204.339 597.535 195.372 599.316 194.557 601.293 195.976 601.021 197.909L595.634 237.234C595.241 240.102 593.415 242.608 590.744 243.725 572.786 251.303 549.048 256.723 525.326 256.723 465.476 256.723 432.547 221.247 441.738 157.904 449.977 99.3015 492.715 70.8002 541.473 70.8002L541.488 70.7851ZM567.052 145.601C568.335 145.571 569.391 144.499 569.391 143.231 569.24 124.014 555.583 116.088 535.784 116.088 511.487 116.088 497.136 125.75 490.587 144.529 490.043 146.084 491.296 147.699 492.926 147.654L567.052 145.601ZM95.6459 74.9814C101.124 74.9817 105.334 79.8131 104.594 85.2324L95.8568 149.104 88.7191 213.548C81.1586 280.423 56.2583 295.248 17.9428 308.502 12.4497 310.404 6.54903 306.841 5.68886 301.09L.0755762 263.817C-.301497 261.342 1.10158 258.927 3.45546 258.066 25.4277 250.05 31.223 242.155 33.9242 222.107L47.6771 127.353H22.7875C17.868 127.353 14.7434 123.73 15.4525 118.869L20.81 82.0947C21.3534 78.3662 25.2171 75.0146 28.9896 75.0146H59.8129C60.0591 74.9944 60.3078 74.9815 60.559 74.9814H95.6459ZM813.998 9.93317C818.268 9.93317 821.528 13.7072 820.924 17.934L805.849 123.198 792.222 247.076C791.829 250.624 788.826 253.311 785.265 253.311H752.02C748.685 253.311 745.938 250.699 745.787 247.363L744.776 226.063C744.595 221.383 742.09 223.028 740.717 224.583 724.268 242.895 704.469 257.13 680.58 257.13 642.732 257.13 618.24 223.089 627.143 159.459 636.047 97.0975 673.578 70.0605 720.646 70.0605 734.665 70.0605 748.111 73.276 758.735 78.318 759.414 78.6351 760.169 78.2124 760.259 77.4727L767.035 16.1829C767.427 12.6354 770.431 9.94826 773.992 9.94826H814.028L813.998 9.93317ZM752.472 143.276C754.585 124.919 754.238 122.957 746.813 121.613 739.449 120.285 731.813 119.757 724.705 120.028 691.506 120.406 676.52 136.619 673.593 160.395 670.333 187.553 680.112 205.29 707.457 205.29 717.115 205.29 726.033 202.407 733.82 198.15 741.864 193.757 747.553 182.345 749.786 165.226L752.488 143.291 752.472 143.276Z"/>
+</svg>
+
+      </a><div class="[&_ul]:mt-0 [&_ul]:justify-center">
+
+<ul
+  class="list-unstyled list-social flex flex-row justify-start gap-2 mt-4 md:mt-0 footer__list-social"
+  role="list"
+><li class="list-social__item w-8.75 h-8.75">
+      <a href="https://www.instagram.com/juceddaily/" class="list-social__link w-full h-full block p-0" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .footer-ig{fill:none}.st1{fill:#fff}
+    </style>
+  </defs>
+  <rect width="20" height="20" class="footer-ig"/>
+  <path d="M16.667,2.222c-.614,0-1.112.498-1.112,1.111s.498,1.111,1.112,1.111,1.111-.498,1.111-1.111-.498-1.111-1.111-1.111Z" class="st1"/>
+  <path d="M16.667,2.222c-.614,0-1.112.498-1.112,1.111s.498,1.111,1.112,1.111,1.111-.498,1.111-1.111-.498-1.111-1.111-1.111Z" class="footer-ig"/>
+  <path d="M14.445,0H5.555C2.487,0,0,2.487,0,5.555v8.89c0,3.068,2.487,5.555,5.555,5.555h8.89c3.068,0,5.555-2.487,5.555-5.555V5.555c0-3.068-2.487-5.555-5.555-5.555ZM10,15.555c-3.068,0-5.555-2.487-5.555-5.555s2.487-5.555,5.555-5.555,5.555,2.487,5.555,5.555-2.487,5.555-5.555,5.555ZM16.667,4.445c-.614,0-1.112-.498-1.112-1.111s.498-1.111,1.112-1.111,1.111.498,1.111,1.111-.498,1.111-1.111,1.111Z" class="st1"/>
+  <path d="M10,6.667c-.219,0-.435.021-.65.064-.215.043-.423.106-.626.191-.202.083-.394.186-.576.307-.182.122-.35.26-.505.415-.154.155-.293.323-.415.505-.121.182-.224.374-.307.576-.084.203-.148.411-.191.626-.043.215-.064.431-.064.65s.021.435.064.65c.043.215.106.423.191.626.083.202.186.394.307.576.122.182.26.35.415.505.155.154.323.293.505.415.182.121.374.224.576.307.203.084.411.148.626.191.215.043.431.064.65.064s.435-.021.65-.064c.215-.043.423-.106.626-.191.202-.083.394-.186.576-.307.182-.122.35-.26.505-.415.154-.155.293-.323.415-.505.121-.182.224-.374.307-.576.084-.203.148-.411.191-.626.043-.215.064-.431.064-.65s-.021-.435-.064-.65c-.043-.215-.106-.423-.191-.626-.083-.202-.186-.394-.307-.576-.122-.182-.26-.35-.415-.505-.155-.154-.323-.293-.505-.415-.182-.121-.374-.224-.576-.307-.203-.084-.411-.148-.626-.191-.215-.043-.431-.064-.65-.064Z" class="st1"/>
+</svg>
+<span class="hidden">Instagram</span>
+      </a>
+    </li><li class="list-social__item w-8.75 h-8.75">
+      <a href="https://www.tiktok.com/@juceddaily" class="list-social__link w-full h-full block p-0" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <path d="M15.429,0H4.571C2.047,0,0,2.047,0,4.571v10.857c0,2.525,2.047,4.571,4.571,4.571h10.857c2.525,0,4.571-2.047,4.571-4.571V4.571c0-2.525-2.047-4.571-4.571-4.571ZM16.991,8.367c-.118.011-.236.018-.357.018-1.358,0-2.553-.679-3.249-1.706v5.808c0,2.372-1.98,4.294-4.419,4.294-2.439-.001-4.418-1.923-4.419-4.294,0-2.371,1.979-4.293,4.419-4.293.093,0,.182.008.273.013v2.116c-.091-.01-.179-.026-.273-.026-1.246,0-2.255.981-2.255,2.19,0,1.21,1.008,2.192,2.255,2.192,1.246,0,2.346-.954,2.346-2.165,0-.071.022-9.862.022-9.864h2.081c.196,1.808,1.698,3.235,3.576,3.366v2.351Z" style="fill:#fff"/>
+</svg>
+<span class="hidden">TikTok</span>
+      </a>
+    </li><li class="list-social__item w-8.75 h-8.75">
+      <a href="https://www.youtube.com/@juceddaily" class="list-social__link w-full h-full block p-0" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .footer-youtube{fill:#fff}
+    </style>
+  </defs>
+  <g id="YouTube">
+    <path d="M15.429,0H4.571C2.047,0,0,2.047,0,4.571v10.857c0,2.525,2.047,4.571,4.571,4.571h10.857c2.525,0,4.571-2.047,4.571-4.571V4.571c0-2.525-2.047-4.571-4.571-4.571ZM16.571,10.496c0,1.059-.13,2.116-.131,2.128,0,0-.128.906-.523,1.304-.501.524-1.06.526-1.317.557-1.838.131-4.599.136-4.6.136,0,0-3.417-.031-4.469-.131-.293-.056-.95-.038-1.45-.562-.393-.398-.521-1.304-.521-1.304-.001-.012-.131-1.071-.131-2.128v-.996c0-1.054.131-2.111.133-2.128,0,0,.126-.906.521-1.304.501-.524,1.06-.526,1.317-.557,1.828-.133,4.569-.134,4.597-.134h.006c.028,0,2.769.001,4.597.134.257.031.816.033,1.317.557.395.398.523,1.304.523,1.304.002.015.131,1.073.131,2.128v.996Z" class="footer-youtube"/>
+    <polygon points="12.192 9.865 8.642 11.706 8.642 8.012 12.192 9.865" class="footer-youtube"/>
+  </g>
+</svg>
+<span class="hidden">YouTube</span>
+      </a>
+    </li><li class="list-social__item w-8.75 h-8.75">
+      <a href="https://www.facebook.com/juceddaily" class="list-social__link w-full h-full block p-0" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <rect width="20" height="20" style="fill:none"/>
+  <path d="M14.984,0H5C2.254,0,0,2.254,0,5.016v9.984c0,2.746,2.254,5,5,5h9.984c2.761,0,5.016-2.254,5.016-5.016V5.016c0-2.761-2.254-5.016-5.016-5.016ZM12.682,10h-1.889v6.191h-2.381v-6.191h-1.27v-2.54h1.111v-1.079c0-1.017.507-2.62,2.651-2.62h1.952v2.112h-1.381c-.222,0-.524.143-.524.635v.952h1.953l-.223,2.54Z" style="fill:#fff"/>
+</svg>
+<span class="hidden">Facebook</span>
+      </a>
+    </li></ul>
+</div></div>
+
+    <div class="mt-6 flex flex-col gap-3 tb:mt-5 tb:flex-row">
+      <div class="flex items-center border border-fg-primary-inverse p-2.5 tb:w-172.5">
+        <p class="text-[0.625rem] font-medium leading-[1.4] tracking-[0.01em] text-fg-secondary-inverse">*These statements have not been evaluated by the Food and Drug Administration. Sources for information on this site include the CDC and studies performed by Harris Interactive. This product is not intended to diagnose, treat, cure or prevent any disease.</p>
+      </div>
+      <div class="flex items-center border border-fg-primary-inverse p-2.5 tb:w-90.5">
+        <p class="text-[0.625rem] font-medium leading-[1.4] tracking-[0.01em] text-fg-secondary-inverse">*Offer assumes customer has received and uses promotional SMS discount reserved for new customers only.</p>
+      </div>
+      <div class="flex w-14 shrink-0 items-center justify-center self-center text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" fill="currentColor" aria-hidden="true">
+  <title>Ü Mark</title>
+  <path d="m12.232 32.844-3.232-14.008 5.163-1.18.829 3.474 4.044 17.613c1.062 4.629 3.545 8.764 8.821 9.043 3.029.16 6.11-.538 8.893-1.745 4.846-2.101 5.572-6.596 4.721-11.372l-5.032-21.918 5.212-1.167 1.762 7.868 2.871 12.398c.642 2.775.886 5.518.593 8.328-.654 6.281-5.222 10.206-11.011 11.833-3.95 1.109-7.369 1.538-11.377.486-2.33-.61-4.338-1.669-6.029-3.454-2.504-2.642-3.96-6.058-4.76-9.636l-1.467-6.565v.002ZM18.932 7.329c1.55 1.73.916 4.274-.908 5.274-1.924 1.054-4.194.139-4.908-1.864-.714-2.004.598-4.358 2.837-4.57 1.071-.101 2.237.336 2.977 1.161l.002-.002ZM33.654 4.073c1.55 1.73.916 4.274-.908 5.274-1.925 1.054-4.194.14-4.908-1.864-.714-2.004.598-4.358 2.839-4.57 1.071-.101 2.237.336 2.977 1.161v-.002Z" />
+</svg>
+
+      </div>
+    </div>
+
+    <div class="mt-8 flex flex-col items-center gap-4 pb-7 tb:mt-5 tb:flex-row tb:justify-between tb:pb-23">
+      <p class="whitespace-nowrap text-[0.875rem] font-medium leading-[1.4] tracking-[0.01em] text-white">
+        &copy; Copyright 2026, Jüced
+      </p>
+      <ul
+        class="flex w-full flex-wrap items-center justify-center gap-x-4 gap-y-2 tb:w-auto tb:justify-end"
+        role="list"
+        aria-label="Legal links"
+      ><li>
+              <a
+                href="/policies/privacy-policy"
+                class="text-[0.625rem] font-medium capitalize leading-[1.4] tracking-[0.01em] text-white transition-colors hover:text-accent2-base"
+              >Privacy policy</a>
+            </li><li>
+              <a
+                href="/policies/refund-policy"
+                class="text-[0.625rem] font-medium capitalize leading-[1.4] tracking-[0.01em] text-white transition-colors hover:text-accent2-base"
+              >Refund policy</a>
+            </li><li>
+              <a
+                href="/policies/terms-of-service"
+                class="text-[0.625rem] font-medium capitalize leading-[1.4] tracking-[0.01em] text-white transition-colors hover:text-accent2-base"
+              >Terms of service</a>
+            </li><li ><a
+                    href=""
+                    class="text-[0.625rem] font-medium leading-[1.4] tracking-[0.01em] text-white hover:text-accent2-base"
+                  >My Privacy Choices</a></li><li ><a
+                    href=""
+                    class="text-[0.625rem] font-medium leading-[1.4] tracking-[0.01em] text-white hover:text-accent2-base"
+                  >Accessibility</a></li></ul>
+    </div>
+  </div>
+
+  <picture class="block h-57.25 w-full overflow-hidden tb:h-86.5">
+    <source
+      media="(min-width: 992px)"
+      srcset="https://cdn.shopify.com/s/files/1/0950/2025/3555/files/footer-glowbarry--desktop.webp"
+    >
+    <img
+      src="https://cdn.shopify.com/s/files/1/0950/2025/3555/files/footer-glowbarry--mobile.webp"
+      alt=""
+      width="800"
+      height="458"
+      class="h-full w-full object-cover object-top tb:object-bottom"
+      loading="lazy"
+    >
+  </picture>
+</footer></div><script src="/store-config.js"></script><script src="/template.js"></script></body></html>
