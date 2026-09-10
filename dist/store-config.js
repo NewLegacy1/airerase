@@ -1,2 +1,2 @@
-/* Edit these settings when adapting the page to your store. Text and sections are in index.html; images are in assets/. */
-window.STORE_CONFIG={checkoutUrl:'', brandName:'Jüced', currency:'USD', lowSugarRetail:66.65, sugarFreeRetail:73.32, subscriptionDiscountPercent:32, twoPersonDiscount:5};
+// Add approved commercial details here. Null prices intentionally prevent ordering.
+window.STORE_CONFIG={brandName:'AERASE',productName:'Body Hair Removal Spray',size:'140 mL / 4.73 fl oz',currency:null,offers:{1:{price:null,checkoutUrl:''},2:{price:null,checkoutUrl:''}},newsletterUrl:'',directionsStatus:'Final pack directions pending. Owner described a 10-minute routine; exact timing is not published until the label is confirmed.'};
