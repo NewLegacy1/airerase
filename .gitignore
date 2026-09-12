@@ -14,3 +14,7 @@ adapt-controls.cjs
 finish-controls.cjs
 check-controls.cjs
 remove-duplicate.cjs
+apply-logo.py
+inspect-videos.py
+update-media.py
+media-review/
