@@ -18,3 +18,5 @@ apply-logo.py
 inspect-videos.py
 update-media.py
 media-review/
+fix-cards.py
+fix-strip.py
