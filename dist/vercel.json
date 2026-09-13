@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/pages/first-order", "destination": "/index.html" },
+    { "source": "/pages/first-order/", "destination": "/index.html" }
+  ]
+}
