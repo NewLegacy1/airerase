@@ -1,0 +1,21 @@
+{
+  "name": "AERASE",
+  "short_name": "AERASE",
+  "description": "Touch-free body hair removal spray for legs, arms, underarms and the external bikini line.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f4ed",
+  "theme_color": "#b19bc9",
+  "icons": [
+    {
+      "src": "/assets/aerase/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/aerase/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
