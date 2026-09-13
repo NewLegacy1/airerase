@@ -1,5 +1,5 @@
 (()=>{
-const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)],config=window.STORE_CONFIG;let quantity=2,mode="bundle";
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)],config=window.STORE_CONFIG;let quantity=2,mode="subscription";
 function message(text){$('.template-message')?.remove();const box=document.createElement('div');box.className='template-message';box.role='status';box.textContent=text;document.body.append(box);setTimeout(()=>box.remove(),6500);}
 function selected(){return mode==='subscription'?config.subscription:config.offers[quantity];}
 function purchasable(){const o=selected();return Boolean(o&&o.price>0&&config.currency&&/^https:\/\//.test(o.checkoutUrl));}

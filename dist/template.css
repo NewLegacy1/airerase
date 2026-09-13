@@ -25,3 +25,4 @@ html{scroll-behavior:smooth} [data-gallery-slide]{transition:transform .35s} [da
 [data-trigger] [data-rotate]{transition:opacity .2s}
 [data-trigger][aria-expanded=true] [data-rotate]{opacity:0}
 .site-header > .relative > div{background:rgba(48,45,50,.25);backdrop-filter:blur(8px)}
+.site-header > .relative{justify-content:flex-end}
