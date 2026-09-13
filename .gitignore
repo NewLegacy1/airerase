@@ -26,3 +26,4 @@ finalize-offers.py
 fix-faq.py
 final-cleanup.py
 remove-footer-picture.py
+autoship.py
