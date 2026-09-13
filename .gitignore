@@ -20,3 +20,6 @@ update-media.py
 media-review/
 fix-cards.py
 fix-strip.py
+update-offers.py
+update-offer-controls.py
+finalize-offers.py

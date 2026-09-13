@@ -1,2 +1,1 @@
-// Add approved commercial details here. Null prices intentionally prevent ordering.
-window.STORE_CONFIG={brandName:'AERASE',productName:'Body Hair Removal Spray',size:'140 mL / 4.73 fl oz',currency:null,offers:{1:{price:null,checkoutUrl:''},2:{price:null,checkoutUrl:''}},newsletterUrl:'',directionsStatus:'Final pack directions pending. Owner described a 10-minute routine; exact timing is not published until the label is confirmed.'};
+window.STORE_CONFIG={brandName:'AERASE',productName:'Body Hair Removal Spray',size:'140 mL / 4.73 fl oz',currency:null,offers:{1:{price:34,shipping:5.95,checkoutUrl:''},2:{price:49,shipping:0,checkoutUrl:''},3:{price:59,shipping:0,checkoutUrl:''}},subscription:{price:24,shipping:0,intervalDays:30,checkoutUrl:''},newsletterUrl:''};
