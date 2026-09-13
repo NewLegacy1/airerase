@@ -23,3 +23,4 @@ fix-strip.py
 update-offers.py
 update-offer-controls.py
 finalize-offers.py
+fix-faq.py
